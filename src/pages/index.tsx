@@ -7,7 +7,7 @@ import matter from 'gray-matter';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home({ data }) {
+export default function Home({ data }: any) {
   console.log({ data });
   return (
     <>
