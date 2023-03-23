@@ -13,6 +13,7 @@ specifiers:
   '@types/showdown': ^2.0.0
   eslint: 8.36.0
   eslint-config-next: 13.2.4
+  follow-redirects: ^1.15.2
   framer-motion: ^10.8.5
   gray-matter: ^4.0.3
   immutable: ^4.3.0
@@ -36,6 +37,7 @@ dependencies:
   '@types/react-dom': 18.0.11
   eslint: 8.36.0
   eslint-config-next: 13.2.4_vgl77cfdswitgr47lm5swmv43m
+  follow-redirects: 1.15.2
   framer-motion: 10.8.5_biqbaboplfbrettd7655fr4n2y
   gray-matter: 4.0.3
   immutable: 4.3.0
