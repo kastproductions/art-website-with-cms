@@ -8,10 +8,12 @@ intro: >-
   through color, texture, and form.
 
 
-  \[Artist's Name] has honed their artistic skills over years of dedicated practice, culminating in a distinctive style that balances the timeless beauty of traditional techniques with the boundless possibilities of contemporary innovation. In this space, you'll discover a diverse array of artwork, from enchanting landscapes and mesmerizing abstracts to evocative portraits and charming still lifes.
+  1. \[Artist's Name] has honed their artistic skills over years of dedicated practice, culminating in a distinctive style that balances the timeless beauty of traditional techniques with the boundless possibilities of contemporary innovation. In this space, you'll discover a diverse array of artwork, from enchanting landscapes and mesmerizing abstracts to evocative portraits and charming still lifes.
+
+  2. We invite you to browse through our carefully curated selection and delve into the rich, vibrant world of \[Artist's Name]. Whether you're an avid collector or simply seeking inspiration, Luminous Visions offers a truly immersive experience that will leave you in awe of the power and passion behind each masterpiece.
 
 
-  We invite you to browse through our carefully curated selection and delve into the rich, vibrant world of \[Artist's Name]. Whether you're an avid collector or simply seeking inspiration, Luminous Visions offers a truly immersive experience that will leave you in awe of the power and passion behind each masterpiece.
+  ![]()
 team:
   - name: Kamile
     position: Developer
