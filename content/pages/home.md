@@ -1,7 +1,7 @@
 ---
 title: Hello World
 intro: >-
-  # H﻿ello World
+  # H﻿ello World.
 
 
   * o﻿ne 
