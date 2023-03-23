@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 import fs from 'fs';
 import matter from 'gray-matter';
+import showdown from 'showdown';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -96,29 +97,15 @@ export default function Home({ data }: any) {
 }
 
 export async function getStaticProps() {
-  // List of files in blgos folder
-  // const file = fs.readFileSync(`content/pages/home.yml`, 'utf8');
-  // const data = matter(file);
-
-  // const data = matter(fs.readFileSync(`content/pages/home.md`, 'utf8'));
-  // const str = fs.readFileSync('./content/pages/home.html', 'utf8');
-  // const data = matter(str);
-  const data = matter.read('./content/pages/home.html');
-
-  // Get the front matter and slug (the filename without .md) of all files
-  // const blogs = filesInBlogs.map(filename => {
-  //   const file = fs.readFileSync(`./content/blogs/${filename}`, 'utf8')
-  //   const matterData = matter(file)
-
-  //   return {
-  //     ...matterData.data, // matterData.data contains front matter
-  //     slug: filename.slice(0, filename.indexOf('.'))
-  //   }
-  // })
+  // const file = fs.readFileSync(`content/pages/home.md`, 'utf8');
+  // const m = matter(file);
+  const m = matter.read('./content/pages/home.md');
+  const converter = new showdown.Converter();
+  m.data.intro = converter.makeHtml(m.data.intro);
 
   return {
     props: {
-      data,
+      data: m.data,
     },
   };
 }
