@@ -5,6 +5,7 @@ specifiers:
   '@emotion/cache': ^11.10.5
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
+  '@netlify/functions': ^1.4.0
   '@netlify/plugin-nextjs': ^4.32.2
   '@nikolovlazar/chakra-ui-prose': ^1.2.1
   '@types/node': 18.15.5
@@ -30,6 +31,7 @@ dependencies:
   '@emotion/cache': 11.10.5
   '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
   '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
+  '@netlify/functions': 1.4.0
   '@netlify/plugin-nextjs': 4.32.2
   '@nikolovlazar/chakra-ui-prose': 1.2.1_55dbqo4eubppfjui4qlyaul4f4
   '@types/node': 18.15.5
