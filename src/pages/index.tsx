@@ -103,7 +103,7 @@ export async function getStaticProps() {
   // const data = matter(fs.readFileSync(`content/pages/home.md`, 'utf8'));
   // const str = fs.readFileSync('./content/pages/home.html', 'utf8');
   // const data = matter(str);
-  const data = matter.read('./content/pages/home.html');
+  const data = matter.read('./content/pages/home.md');
 
   // Get the front matter and slug (the filename without .md) of all files
   // const blogs = filesInBlogs.map(filename => {
