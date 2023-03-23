@@ -1,16 +1,19 @@
 import { useEffect } from 'react';
-import HomePageTemplate from '../templates/HomePage';
+import { HomePagePreview } from '../templates/HomePage';
+import dynamic from 'next/dynamic';
+// @ts-ignore
+const CMS = dynamic(() => import('netlify-cms-app').default, { ssr: false });
 
 const Admin = () => {
   useEffect(() => {
-    (async () => {
-      const CMS = (await import('netlify-cms-app')).default;
-      CMS.init();
-      CMS.registerPreviewTemplate('home', HomePageTemplate);
-    })();
+    if (!CMS) return;
+    // @ts-ignore
+    CMS.init();
+    // @ts-ignore
+    CMS.registerPreviewTemplate('home', HomePagePreview);
   }, []);
 
-  return <div />;
+  return <div id="nc-root" />;
 };
 
 export default Admin;

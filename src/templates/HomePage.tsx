@@ -6,10 +6,7 @@ import { Container, Box, Text, Heading, ChakraProvider } from '@chakra-ui/react'
 import { Prose } from '@nikolovlazar/chakra-ui-prose';
 import { theme } from '@/pages/_app';
 
-export default function HomePage({ entry }: any) {
-  const title = entry.getIn(['data', 'title']);
-  const intro = entry.getIn(['data', 'intro']);
-
+export function HomePage({ title, intro }: any) {
   return (
     <ChakraProvider theme={theme}>
       <Head>
@@ -30,4 +27,12 @@ export default function HomePage({ entry }: any) {
       </Box>
     </ChakraProvider>
   );
+}
+
+export function HomePagePreview({ entry, widgetFor }: any) {
+  const data = {
+    title: entry.getIn(['data', 'title']),
+    intro: entry.getIn(['data', 'intro']),
+  };
+  return <HomePage {...data} />;
 }
