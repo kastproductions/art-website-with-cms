@@ -7,20 +7,18 @@ import Head from 'next/head';
 
 export const theme = extendTheme({}, withProse());
 export default function App({ Component, pageProps }: AppProps) {
-  // const router = useRouter()
+  const router = useRouter();
 
-  // const LayoutToUse = router.asPath.startsWith('/admin')
-  // ? React.Fragment
-  // : Layout
+  const LayoutToUse = router.asPath.startsWith('/admin') ? React.Fragment : ChakraProvider;
 
   return (
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <ChakraProvider theme={theme}>
+      <LayoutToUse theme={theme}>
         <Component {...pageProps} />
-      </ChakraProvider>
+      </LayoutToUse>
     </>
   );
 }

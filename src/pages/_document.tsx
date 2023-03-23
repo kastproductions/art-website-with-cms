@@ -5,12 +5,12 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* Netlify Widget */}
-        <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+        {/* <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js" /> */}
       </Head>
       <body>
         <Main />
         <NextScript />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
               if (window.netlifyIdentity) {
@@ -24,7 +24,7 @@ export default function Document() {
               }
           `,
           }}
-        />
+        /> */}
       </body>
     </Html>
   );
