@@ -2,10 +2,13 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
+import fs from 'fs';
+import matter from 'gray-matter';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
+export default function Home({ data }) {
+  console.log({ data });
   return (
     <>
       <Head>
@@ -90,4 +93,32 @@ export default function Home() {
       </main>
     </>
   );
+}
+
+export async function getStaticProps() {
+  // List of files in blgos folder
+  // const file = fs.readFileSync(`content/pages/home.yml`, 'utf8');
+  // const data = matter(file);
+
+  // const data = matter(fs.readFileSync(`content/pages/home.md`, 'utf8'));
+  // const str = fs.readFileSync('./content/pages/home.html', 'utf8');
+  // const data = matter(str);
+  const data = matter.read('./content/pages/home.html');
+
+  // Get the front matter and slug (the filename without .md) of all files
+  // const blogs = filesInBlogs.map(filename => {
+  //   const file = fs.readFileSync(`./content/blogs/${filename}`, 'utf8')
+  //   const matterData = matter(file)
+
+  //   return {
+  //     ...matterData.data, // matterData.data contains front matter
+  //     slug: filename.slice(0, filename.indexOf('.'))
+  //   }
+  // })
+
+  return {
+    props: {
+      data,
+    },
+  };
 }
