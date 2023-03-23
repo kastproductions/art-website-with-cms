@@ -15,16 +15,16 @@ export default function Home({ data }: any) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <Container maxW="container.lg" py={20}>
+      <Box as="main">
+        <Container maxW="8xl" w="full" py={20}>
           <Heading as="h1" fontWeight="bold">
             {data.title}
           </Heading>
           <Prose>
-            <ReactMarkdown>{data.intro}</ReactMarkdown>
+            <Box as={ReactMarkdown}>{data.intro}</Box>
           </Prose>
         </Container>
-      </main>
+      </Box>
     </>
   );
 }
