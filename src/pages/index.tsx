@@ -9,6 +9,6 @@ export async function getStaticProps() {
   const entry = matter.read('./content/pages/home.md');
   return {
     props: { data: entry.data },
-    revalidate: 1,
+    revalidate: 61,
   };
 }
