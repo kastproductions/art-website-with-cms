@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 media_folder: 'public/uploads' # Where media files will be stored
-public_folder: '/uploads' # Where the media files can be accesed from the server
+public_folder: 'content/uploads' # Where the media files can be accesed from the server
 publish_mode: editorial_workflow # For Drafts
 
 collections:
@@ -22,7 +22,7 @@ collections:
     files:
       - label: 'Home Page'
         name: 'home'
-        file: 'content/pages/home.md'
+        file: 'content/pages/home.html'
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
@@ -36,7 +36,7 @@ collections:
 
       - label: 'About Page'
         name: 'about'
-        file: 'content/pages/about.md'
+        file: 'content/pages/about.html'
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
