@@ -10,7 +10,7 @@ const Admin = () => {
     })();
   }, []);
 
-  return null;
+  return <div />;
 };
 
 export default Admin;

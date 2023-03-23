@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import Head from 'next/head';
 
-const theme = extendTheme({}, withProse());
+export const theme = extendTheme({}, withProse());
 export default function App({ Component, pageProps }: AppProps) {
   // const router = useRouter()
 
