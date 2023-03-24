@@ -54,7 +54,7 @@ export function HomePage({ heading, intro, seo_title, seo_description, image }: 
                   </Box>
                 </Prose>
               </HStack>
-              <Img src={image} maxH="50vh" objectFit="contain" w="full" alt="Jurga at workshop" />
+              {image && <Img src={image} maxH="50vh" objectFit="contain" w="full" alt="Jurga at workshop" />}
             </Stack>
           </Container>
         </Box>
