@@ -6,8 +6,24 @@ const config = {
     name: 'git-gateway',
     branch: 'main',
   },
-  media_folder: 'public/uploads',
-  public_folder: 'uploads',
+  media_folder: 'public/images',
+  public_folder: 'images',
+
+  // media_library: {
+  //   name: 'cloudinary',
+  //   config: {
+  //     cloud_name: 'dmkg8rfly',
+  //     api_key: '398367376997286',
+  //     default_transformations: {
+  //       fetch_format: 'auto',
+  //       quality: 'auto',
+  //       gravity: 'auto',
+  //       crop: 'fill',
+  //     },
+  //   },
+  // },
+  // media_folder: 'public/uploads',
+  // public_folder: 'uploads',
   publish_mode: 'editorial_workflow',
   collections: [
     {
@@ -23,6 +39,7 @@ const config = {
             { name: 'se0_description', label: 'SEO Description', widget: 'text' },
             { name: 'heading', label: 'Heading', widget: 'string' },
             { name: 'intro', label: 'Intro', widget: 'markdown' },
+            { name: 'image', label: 'Image', widget: 'image' },
           ],
         },
       ],

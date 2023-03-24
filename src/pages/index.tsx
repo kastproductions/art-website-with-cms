@@ -7,6 +7,7 @@ export default function Home({ data }: any) {
 
 export async function getStaticProps() {
   const entry = matter.read('./content/pages/home.md');
+  console.log({ entry });
   return {
     props: { data: entry.data },
     revalidate: 1,
