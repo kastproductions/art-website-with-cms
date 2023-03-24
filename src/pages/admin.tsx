@@ -77,16 +77,27 @@ const config = {
         },
       ],
     },
+    {
+      name: 'portfolio',
+      label: 'Portfolio',
+      folder: 'content/portfolio',
+      create: true,
+      fields: [
+        { name: 'title', label: 'Title', widget: 'string' },
+        { name: 'description', label: 'Description', widget: 'markdown' },
+        {
+          label: 'Images',
+          name: 'images',
+          widget: 'list',
+          fields: [
+            { name: 'image', label: 'Image', widget: 'image' },
+            { name: 'alt', label: 'Alt Text', widget: 'string' },
+          ],
+        },
+      ],
+    },
   ],
 };
-
-//       - label: Team
-//         name: team
-//         widget: list
-//         fields:
-//           - { label: Name, name: name, widget: string }
-//           - { label: Position, name: position, widget: string }
-//           - { label: Photo, name: photo, widget: image }
 
 const Admin = () => {
   useEffect(() => {
