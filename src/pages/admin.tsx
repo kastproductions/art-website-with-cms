@@ -27,8 +27,8 @@ const config = {
   publish_mode: 'editorial_workflow',
   collections: [
     {
-      name: 'global_settings',
       label: 'Global settings',
+      name: 'global_settings',
       files: [
         {
           label: 'Site',
@@ -60,8 +60,8 @@ const config = {
       ],
     },
     {
-      name: 'pages',
       label: 'Pages',
+      name: 'pages',
       files: [
         {
           label: 'Home Page',
@@ -78,8 +78,8 @@ const config = {
       ],
     },
     {
-      name: 'portfolio',
       label: 'Portfolio',
+      name: 'portfolio',
       folder: 'content/portfolio',
       create: true,
       fields: [
