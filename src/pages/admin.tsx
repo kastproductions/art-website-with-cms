@@ -40,6 +40,23 @@ const config = {
             { name: 'site_name', label: 'Site Name', widget: 'text' },
           ],
         },
+        {
+          label: 'Social Media',
+          name: 'social_media',
+          file: 'content/global_settings/social_media.md',
+          fields: [
+            {
+              label: 'Social media links',
+              name: 'social_media_links',
+              widget: 'list',
+              fields: [
+                { name: 'name', label: 'Name', widget: 'string' },
+                { name: 'url', label: 'Url', widget: 'string' },
+                { name: 'icon', label: 'Icon Name', widget: 'string' },
+              ],
+            },
+          ],
+        },
       ],
     },
     {
@@ -62,6 +79,14 @@ const config = {
     },
   ],
 };
+
+//       - label: Team
+//         name: team
+//         widget: list
+//         fields:
+//           - { label: Name, name: name, widget: string }
+//           - { label: Position, name: position, widget: string }
+//           - { label: Photo, name: photo, widget: image }
 
 const Admin = () => {
   useEffect(() => {
