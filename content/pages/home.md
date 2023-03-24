@@ -1,5 +1,5 @@
 ---
-title: "Luminous Visions: The Enchanting Artistry of Jurga Uzdilaite"
+title: "Luminous Visions: The Captivating Art of Jurga Uzdilaite"
 intro: >-
   Welcome to Luminous Visions, the official online gallery of Jurga Uzdilaite.
   Dive into a world of amazing creativity, where each piece shares a unique
