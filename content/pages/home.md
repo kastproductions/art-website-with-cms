@@ -18,5 +18,5 @@ intro: >-
 
 
   We invite you to browse our carefully chosen selection and discover the colourful, vibrant world of Jurga. Whether you're a passionate collector or just looking for inspiration, Luminous Visions offers an engaging experience that will leave you appreciating the power and passion behind each piece.
-image: /assets/uploads/premium_photo-1661727339503-b15c728dff40.png
+image: /content/assets/uploads/premium_photo-1661727339503-b15c728dff40.png
 ---
