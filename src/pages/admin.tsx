@@ -27,6 +27,22 @@ const config = {
   publish_mode: 'editorial_workflow',
   collections: [
     {
+      name: 'global_settings',
+      label: 'Global settings',
+      files: [
+        {
+          label: 'Site',
+          name: 'site',
+          file: 'content/global_settings/site.md',
+          fields: [
+            { name: 'seo_title', label: 'SEO Title', widget: 'string' },
+            { name: 'seo_description', label: 'SEO Description', widget: 'text' },
+            { name: 'site_name', label: 'Site Name', widget: 'text' },
+          ],
+        },
+      ],
+    },
+    {
       name: 'pages',
       label: 'Pages',
       files: [
@@ -36,7 +52,7 @@ const config = {
           file: 'content/pages/home.md',
           fields: [
             { name: 'seo_title', label: 'SEO Title', widget: 'string' },
-            { name: 'se0_description', label: 'SEO Description', widget: 'text' },
+            { name: 'seo_description', label: 'SEO Description', widget: 'text' },
             { name: 'heading', label: 'Heading', widget: 'string' },
             { name: 'intro', label: 'Intro', widget: 'markdown' },
             { name: 'image', label: 'Image', widget: 'image' },

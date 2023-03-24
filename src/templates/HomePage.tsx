@@ -9,12 +9,7 @@ import { CacheProvider } from '@emotion/react';
 // @ts-ignore
 import weakMemoize from '@emotion/weak-memoize';
 
-const canonicalUrl = `https://jurgauzdilaite.netlify.app/`;
 const ogType = 'website';
-
-const globalMeta = {
-  siteName: 'Luminous Visions',
-};
 
 export function HomePage({ heading, intro, seo_title, seo_description, image }: any) {
   return (
@@ -23,13 +18,10 @@ export function HomePage({ heading, intro, seo_title, seo_description, image }: 
         {seo_title && <title>{seo_title}</title>}
         {seo_description && <meta name="description" content={seo_description} />}
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:site_name" content={globalMeta.siteName} />
         <meta property="og:type" content={ogType} />
         {seo_description && <meta property="og:description" content={seo_description} />}
+        {/* <meta property="og:site_name" content={globalMeta.siteName} /> */}
         {/* <meta property="og:image" content={ogImgUrl} /> */}
-        <meta property="og:url" content={canonicalUrl} />
       </Head>
       <Box as="main">
         <Box as="header" bg="#24372A" color="white">
