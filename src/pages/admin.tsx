@@ -19,7 +19,9 @@ const config = {
           name: 'home',
           file: 'content/pages/home.md',
           fields: [
-            { name: 'title', label: 'Title', widget: 'string' },
+            { name: 'seo_title', label: 'SEO Title', widget: 'string' },
+            { name: 'se0_description', label: 'SEO Description', widget: 'text' },
+            { name: 'heading', label: 'Heading', widget: 'string' },
             { name: 'intro', label: 'Intro', widget: 'markdown' },
           ],
         },
