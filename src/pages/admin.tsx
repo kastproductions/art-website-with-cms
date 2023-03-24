@@ -75,6 +75,18 @@ const config = {
             { name: 'image', label: 'Image', widget: 'image' },
           ],
         },
+        {
+          label: 'About Page',
+          name: 'about',
+          file: 'content/pages/about.md',
+          fields: [
+            { name: 'seo_title', label: 'SEO Title', widget: 'string' },
+            { name: 'seo_description', label: 'SEO Description', widget: 'text' },
+            { name: 'heading', label: 'Heading', widget: 'string' },
+            { name: 'intro', label: 'Intro', widget: 'markdown' },
+            { name: 'image', label: 'Image', widget: 'image' },
+          ],
+        },
       ],
     },
     {
