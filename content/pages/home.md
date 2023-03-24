@@ -1,6 +1,6 @@
 ---
 title: "Luminous Visions: The Captivating Art of Jurga Uzdilaite"
-seo_title: "Luminous Visions: The Captivating Art of Jurga Uzdilaite"
+seo_title: Luminous Visions | The Captivating Art of Jurga Uzdilaite
 se0_description: Welcome to Luminous Visions, the official online gallery of
   Jurga Uzdilaite.   Dive into a world of amazing creativity, where each piece
   shares a unique   story filled with emotion and depth. As you explore our
