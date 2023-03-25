@@ -6,6 +6,7 @@ specifiers:
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
   '@fontsource/cardo': ^4.5.9
+  '@fontsource/roboto': ^4.5.8
   '@netlify/functions': ^1.4.0
   '@netlify/plugin-nextjs': ^4.32.2
   '@nikolovlazar/chakra-ui-prose': ^1.2.1
@@ -33,6 +34,7 @@ dependencies:
   '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
   '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
   '@fontsource/cardo': 4.5.9
+  '@fontsource/roboto': 4.5.8
   '@netlify/functions': 1.4.0
   '@netlify/plugin-nextjs': 4.32.2
   '@nikolovlazar/chakra-ui-prose': 1.2.1_55dbqo4eubppfjui4qlyaul4f4
@@ -1425,6 +1427,10 @@ packages:
 
   /@fontsource/cardo/4.5.9:
     resolution: {integrity: sha512-X0bKBSdIlny7JQ2N+DRgdrA6HUt4qQhoBUrRg4LGzZXFHWdhNePPRJWRh6Z9ydniGRzwoK8OJ6Ekn4pXV/YdrA==}
+    dev: false
+
+  /@fontsource/roboto/4.5.8:
+    resolution: {integrity: sha512-CnD7zLItIzt86q4Sj3kZUiLcBk1dSk81qcqgMGaZe7SQ1P8hFNxhMl5AZthK1zrDM5m74VVhaOpuMGIL4gagaA==}
     dev: false
 
   /@humanwhocodes/config-array/0.11.8:

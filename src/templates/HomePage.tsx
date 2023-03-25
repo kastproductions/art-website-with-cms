@@ -33,7 +33,7 @@ export function HomePage({ heading, intro, seo_title, seo_description, image, co
                   fontWeight="normal"
                   fontSize={['4xl', '4xl', '8xl']}
                   textAlign="center"
-                  maxW="5xl"
+                  maxW="7xl"
                   textTransform="uppercase"
                 >
                   {heading}

@@ -143,6 +143,7 @@ const Admin = () => {
       // @ts-ignore
       CMS.init({ config });
       // @ts-ignore
+      CMS.registerPreviewStyle('../../node_modules/@fontsource/cardo/400.css');
       CMS.registerPreviewTemplate('home', HomePagePreview);
     })();
   }, []);

@@ -15,6 +15,7 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@fontsource/cardo": "^4.5.9",
+    "@fontsource/roboto": "^4.5.8",
     "@netlify/functions": "^1.4.0",
     "@netlify/plugin-nextjs": "^4.32.2",
     "@nikolovlazar/chakra-ui-prose": "^1.2.1",

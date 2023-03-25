@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import Head from 'next/head';
 import '@fontsource/cardo';
+import '@fontsource/roboto';
 
 const canonicalUrl = `https://jurgauzdilaite.netlify.app/`;
 const ogType = 'website';
@@ -15,8 +16,8 @@ const seo_description = `Welcome to Luminous Visions, the official online galler
 export const theme = extendTheme(
   {
     fonts: {
-      heading: `'Cardo', sans-serif`,
-      // body: `'Raleway', sans-serif`,
+      heading: `"Cardo", sans-serif`,
+      body: `"Roboto", sans-serif`,
     },
   },
   withProse()
