@@ -6,4 +6,7 @@ social_media_links:
   - name: instagram
     url: https://www.instagram.com/jurgauzdilaite/
     icon: .
+  - name: email
+    url: kamile.stulgyte@gmail.com
+    icon: .
 ---
