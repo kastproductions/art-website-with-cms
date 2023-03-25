@@ -1,7 +1,7 @@
 ---
-title: Some Collection Name
+title: Stained glass art
 description: Some Collection Description
 portfolio_items:
-  - item: Stained glass art collection
-  - item: Paintings collection
+  - item: Stained glass 1
+  - item: Painting 1
 ---
