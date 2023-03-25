@@ -17,8 +17,19 @@ export async function getStaticProps() {
     return data;
   });
 
+  const filesInCollections = fs.readdirSync('./content/collection');
+
+  const collections = filesInCollections.map((filename) => {
+    const file = fs.readFileSync(`./content/collection/${filename}`, 'utf8');
+    const { data } = matter(file);
+    const { portfolio_items } = data;
+    const names = portfolio_items.map(({ item }) => item);
+    const items = portfolio.filter((p) => names.includes(p.title));
+    return { ...data, items };
+  });
+
   return {
-    props: { data: { ...data, portfolio } },
+    props: { data: { ...data, collections } },
     revalidate: 1,
   };
 }

@@ -55,8 +55,8 @@ const config = {
       ],
     },
     {
-      label: 'Pages',
-      name: 'pages',
+      label: 'Page',
+      name: 'page',
       delete: false,
       files: [
         {
@@ -101,6 +101,34 @@ const config = {
           fields: [
             { name: 'image', label: 'Image', widget: 'image' },
             { name: 'alt', label: 'Alt Text', widget: 'string' },
+          ],
+        },
+      ],
+    },
+    {
+      label: 'Collection',
+      name: 'collection',
+      folder: 'content/collection',
+      create: true,
+      delete: true,
+      fields: [
+        { name: 'title', label: 'Title', widget: 'string' },
+        { name: 'description', label: 'Description', widget: 'markdown' },
+        {
+          label: 'Portfolio items in this collection',
+          name: 'portfolio_items',
+          widget: 'list',
+          collapsed: false,
+          fields: [
+            {
+              name: 'item',
+              label: 'Item',
+              widget: 'relation',
+              collection: 'portfolio',
+              search_fields: ['title'],
+              value_field: '{{title}}',
+              display_fields: ['{{title}}'],
+            },
           ],
         },
       ],

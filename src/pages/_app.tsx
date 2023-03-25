@@ -4,6 +4,7 @@ import { withProse } from '@nikolovlazar/chakra-ui-prose';
 import { useRouter } from 'next/router';
 import React from 'react';
 import Head from 'next/head';
+import '@fontsource/cardo';
 
 const canonicalUrl = `https://jurgauzdilaite.netlify.app/`;
 const ogType = 'website';
@@ -11,7 +12,15 @@ const site_name = 'Luminous Visions';
 const seo_title = `Luminous Visions: The Captivating Art Of Jurga Uzdilaite`;
 const seo_description = `Welcome to Luminous Visions, the official online gallery of Jurga Uzdilaite. Dive into a world of amazing creativity, where each piece shares a unique story filled with emotion and depth. As you explore our impressive collection, get ready for a fascinating journey through colour, texture, and form.`;
 
-export const theme = extendTheme({}, withProse());
+export const theme = extendTheme(
+  {
+    fonts: {
+      heading: `'Cardo', sans-serif`,
+      // body: `'Raleway', sans-serif`,
+    },
+  },
+  withProse()
+);
 export default function App({ Component, pageProps }: AppProps) {
   // const {
   //   data: { seo_title, seo_description, site_name },

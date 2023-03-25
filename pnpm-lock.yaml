@@ -5,6 +5,7 @@ specifiers:
   '@emotion/cache': ^11.10.5
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
+  '@fontsource/cardo': ^4.5.9
   '@netlify/functions': ^1.4.0
   '@netlify/plugin-nextjs': ^4.32.2
   '@nikolovlazar/chakra-ui-prose': ^1.2.1
@@ -31,6 +32,7 @@ dependencies:
   '@emotion/cache': 11.10.5
   '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
   '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
+  '@fontsource/cardo': 4.5.9
   '@netlify/functions': 1.4.0
   '@netlify/plugin-nextjs': 4.32.2
   '@nikolovlazar/chakra-ui-prose': 1.2.1_55dbqo4eubppfjui4qlyaul4f4
@@ -1419,6 +1421,10 @@ packages:
   /@eslint/js/8.36.0:
     resolution: {integrity: sha512-lxJ9R5ygVm8ZWgYdUweoq5ownDlJ4upvoWmO4eLxBYHdMo+vZ/Rx0EN6MbKWDJOSUGrqJy2Gt+Dyv/VKml0fjg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: false
+
+  /@fontsource/cardo/4.5.9:
+    resolution: {integrity: sha512-X0bKBSdIlny7JQ2N+DRgdrA6HUt4qQhoBUrRg4LGzZXFHWdhNePPRJWRh6Z9ydniGRzwoK8OJ6Ekn4pXV/YdrA==}
     dev: false
 
   /@humanwhocodes/config-array/0.11.8:

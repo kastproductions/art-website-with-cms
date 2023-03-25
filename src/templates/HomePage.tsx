@@ -11,7 +11,7 @@ import weakMemoize from '@emotion/weak-memoize';
 
 const ogType = 'website';
 
-export function HomePage({ heading, intro, seo_title, seo_description, image, portfolio }: any) {
+export function HomePage({ heading, intro, seo_title, seo_description, image, collections }: any) {
   return (
     <>
       <Head>
@@ -56,8 +56,8 @@ export function HomePage({ heading, intro, seo_title, seo_description, image, po
             </Stack>
           </Container>
         </Box>
-        <Box as="section" bg="#F4F2F0">
-          <Container maxW="8xl" w="full" py={20}>
+        <Box bg="#F4F2F0">
+          {/* <Container as="section" maxW="8xl" w="full" py={20}>
             <HStack justify="center">
               <Heading
                 as="h1"
@@ -80,6 +80,30 @@ export function HomePage({ heading, intro, seo_title, seo_description, image, po
                 );
               })}
             </SimpleGrid>
+          </Container> */}
+          <Container as="section" maxW="8xl" w="full" py={28}>
+            <Stack spacing={[20, 20, 28]}>
+              {collections?.map(({ title, items }) => {
+                return (
+                  <Stack key={title}>
+                    <Heading fontSize={['5xl', '5xl', '8xl']} fontWeight="normal">
+                      {title}
+                    </Heading>
+                    <SimpleGrid columns={[1, 2, 4]} spacing={8} pt={[6, 6, 10]}>
+                      {items?.map(({ title, images }) => {
+                        return (
+                          <Stack key={title}>
+                            <Img src={images[0].image} objectFit="cover" h={64} />
+                            <Text textAlign="center">{title}</Text>
+                          </Stack>
+                        );
+                      })}
+                    </SimpleGrid>
+                    {/* <Box as="pre">{JSON.stringify(items, null, 2)}</Box> */}
+                  </Stack>
+                );
+              })}
+            </Stack>
           </Container>
         </Box>
       </Box>
@@ -101,10 +125,8 @@ export default function HomePagePreview({ entry, widgetFor }: any) {
     heading: entry.getIn(['data', 'heading']),
     intro: entry.getIn(['data', 'intro']),
     image: entry.getIn(['data', 'image']),
-    social_media_links: entry.getIn(['data', 'social_media_links']),
   };
 
-  console.log({ data });
   return (
     <CacheProvider
       value={memoizedCreateCacheWithContainer(
