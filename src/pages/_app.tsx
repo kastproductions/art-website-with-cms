@@ -5,7 +5,8 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import Head from 'next/head';
 import '@fontsource/cardo';
-import '@fontsource/roboto';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/300.css';
 
 const canonicalUrl = `https://jurgauzdilaite.netlify.app/`;
 const ogType = 'website';
@@ -20,7 +21,11 @@ export const theme = extendTheme(
       body: `"Roboto", sans-serif`,
     },
   },
-  withProse()
+  withProse({
+    baseStyle: {
+      p: { fontSize: ['md', 'xl'], lineHeight: 'tall', fontWeight: 'normal' },
+    },
+  })
 );
 export default function App({ Component, pageProps }: AppProps) {
   // const {
