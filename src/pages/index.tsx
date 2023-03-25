@@ -7,10 +7,9 @@ export default function Home({ data }: any) {
 }
 
 export async function getStaticProps() {
-  const { data: home } = matter.read('./content/pages/home.md');
-  const { data: media } = matter.read('./content/global_settings/social_media.md');
+  const { data } = matter.read('./content/pages/home.md');
   return {
-    props: { data: { ...home, ...media } },
+    props: { data },
     revalidate: 1,
   };
 }

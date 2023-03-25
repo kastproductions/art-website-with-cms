@@ -27,18 +27,18 @@ const config = {
   publish_mode: 'editorial_workflow',
   collections: [
     {
-      label: 'Global settings',
-      name: 'global_settings',
+      label: 'Site Settings',
+      name: 'site_settings',
       delete: false,
       files: [
         {
-          label: 'Site',
-          name: 'site',
-          file: 'content/global_settings/site.md',
+          label: 'SEO',
+          name: 'seo',
+          file: 'content/site_settings/seo.md',
           fields: [
-            { name: 'seo_title', label: 'SEO Title', widget: 'string' },
-            { name: 'seo_description', label: 'SEO Description', widget: 'text' },
-            { name: 'site_name', label: 'Site Name', widget: 'text' },
+            { name: 'title', label: 'SEO Title', widget: 'string' },
+            { name: 'description', label: 'SEO Description', widget: 'text' },
+            { name: 'name', label: 'Site Name', widget: 'text' },
           ],
         },
       ],
@@ -60,7 +60,7 @@ const config = {
       delete: false,
       files: [
         {
-          label: 'Home Page',
+          label: 'Home',
           name: 'home',
           file: 'content/pages/home.md',
           fields: [
@@ -72,7 +72,7 @@ const config = {
           ],
         },
         {
-          label: 'About Page',
+          label: 'About',
           name: 'about',
           file: 'content/pages/about.md',
           fields: [
