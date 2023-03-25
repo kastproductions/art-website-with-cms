@@ -52,7 +52,6 @@ const config = {
       fields: [
         { name: 'name', label: 'Name', widget: 'string' },
         { name: 'url', label: 'Url', widget: 'string' },
-        { name: 'icon', label: 'Icon Name', widget: 'string' },
       ],
     },
     {
