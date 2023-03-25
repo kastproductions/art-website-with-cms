@@ -20,6 +20,7 @@ import {
   Button,
   IconButton,
   Link,
+  useDisclosure,
 } from '@chakra-ui/react';
 import { Prose } from '@nikolovlazar/chakra-ui-prose';
 import { theme } from '@/pages/_app';
@@ -33,9 +34,7 @@ import { FiMenu, FiX } from 'react-icons/fi';
 const ogType = 'website';
 import NextLink from 'next/link';
 
-export function HomePage({ heading, intro, seo_title, seo_description, image, collections }: any) {
-  const { isOpen, onClose, onOpen, onToggle } = useDrawer();
-
+export function AboutPage({ seo_title, seo_description, body }: any) {
   return (
     <>
       <Head>
@@ -48,7 +47,7 @@ export function HomePage({ heading, intro, seo_title, seo_description, image, co
         {/* <meta property="og:image" content={ogImgUrl} /> */}
       </Head>
 
-      <Box as="main" bg="#EEEEEE">
+      <Box as="main" bg="#EEEEEE" minH="100vh">
         <Container maxW="8xl" w="full">
           <HStack h={[16, 24]}>
             <Box flex={1} pt={1.5}>
@@ -65,53 +64,20 @@ export function HomePage({ heading, intro, seo_title, seo_description, image, co
           </HStack>
         </Container>
         <Stack isInline w="full" spacing={0}>
-          <DSSrawer />
           <Box w="full">
             <Box as="header">
-              <Container maxW="7xl" w="full" py={[10, 10, 20]}>
+              <Container maxW="8xl" w="full" py={[10, 10, 20]}>
                 <Stack spacing={[2, 2, 20]}>
-                  <HStack justify="center">
-                    <Heading as="h1" fontWeight="normal" fontSize={['4xl', '4xl', '8xl']} textAlign="center" maxW="7xl">
-                      {heading}
+                  <HStack>
+                    <Heading as="h1" fontWeight="normal" fontSize={['4xl', '4xl', '7xl']} textAlign="center" maxW="7xl">
+                      About me
                     </Heading>
                   </HStack>
-                  <Stack direction={['column-reverse', 'column-reverse', 'row']} justify="center" spacing={[0, 0, 12]}>
-                    {image && (
-                      <Box w={['full', 'full', '40%']}>
-                        <Img src={image} objectFit="contain" w="full" alt="Jurga at workshop" />
-                      </Box>
-                    )}
-                    <Box w={['full', 'full', '60%']}>
-                      <Prose>
-                        <Box as={ReactMarkdown}>{intro}</Box>
-                      </Prose>
-                    </Box>
-                  </Stack>
-                </Stack>
-              </Container>
-            </Box>
-            <Box>
-              <Container as="section" maxW="8xl" w="full" py={28}>
-                <Stack spacing={[20, 20, 28]}>
-                  {collections?.map(({ title, items }) => {
-                    return (
-                      <Stack key={title}>
-                        <Heading fontSize={['5xl', '5xl', '7xl']} fontWeight="normal">
-                          {title}
-                        </Heading>
-                        <SimpleGrid columns={[1, 2, 4]} spacing={8} pt={[6, 6, 10]}>
-                          {items?.map(({ title, images }) => {
-                            return (
-                              <Stack key={title}>
-                                <Img src={images[0].image} objectFit="cover" h={64} />
-                                <Text textAlign="center">{title}</Text>
-                              </Stack>
-                            );
-                          })}
-                        </SimpleGrid>
-                      </Stack>
-                    );
-                  })}
+                  <Box w={['full', 'full', '60%']}>
+                    <Prose>
+                      <Box as={ReactMarkdown}>{body}</Box>
+                    </Prose>
+                  </Box>
                 </Stack>
               </Container>
             </Box>
@@ -119,53 +85,6 @@ export function HomePage({ heading, intro, seo_title, seo_description, image, co
         </Stack>
       </Box>
     </>
-  );
-}
-
-import { proxy, useSnapshot } from 'valtio';
-
-const state = proxy({
-  isOpen: false,
-  onOpen: () => {
-    state.isOpen = true;
-  },
-  onClose: () => {
-    state.isOpen = false;
-  },
-  onToggle: () => {
-    state.isOpen = !state.isOpen;
-  },
-});
-
-function useDrawer() {
-  return useSnapshot(state);
-}
-
-import { useDisclosure } from '@chakra-ui/react';
-import { motion } from 'framer-motion';
-
-function DSSrawer() {
-  // const { getButtonProps, getDisclosureProps } = useDisclosure();
-  // const [hidden, setHidden] = useState(!isOpen);
-  const { isOpen, onClose } = useDrawer();
-  // const [width, setWidth] = React.useState(0);
-  // const button = React.cloneElement()
-
-  return (
-    <Box
-      as={motion.div}
-      bg="white"
-      initial={false}
-      animate={{ width: isOpen ? 500 : 0 }}
-      overflow="hidden"
-      whiteSpace="nowrap"
-      height="100vh"
-      overflowY="auto"
-      right="0"
-      top="0"
-    >
-      welcome home
-    </Box>
   );
 }
 
@@ -269,13 +188,9 @@ const memoizedCreateCacheWithContainer = weakMemoize((container: any) => {
   });
 });
 
-export default function HomePagePreview({ entry, widgetFor }: any) {
+export default function AboutPagePreview({ entry, widgetFor }: any) {
   const data = {
-    seo_title: entry.getIn(['data', 'seo_title']),
-    seo_description: entry.getIn(['data', 'seo_description']),
-    heading: entry.getIn(['data', 'heading']),
-    intro: entry.getIn(['data', 'intro']),
-    image: entry.getIn(['data', 'image']),
+    body: entry.getIn(['data', 'body']),
   };
 
   return (
@@ -285,7 +200,7 @@ export default function HomePagePreview({ entry, widgetFor }: any) {
       )}
     >
       <ThemeProvider theme={theme}>
-        <HomePage {...data} />
+        <AboutPage {...data} />
       </ThemeProvider>
     </CacheProvider>
   );

@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import HomePagePreview from '../templates/HomePage';
+import AboutPagePreview from '../templates/AboutPage';
 
 const config = {
   backend: {
@@ -75,17 +76,10 @@ const config = {
           label: 'About',
           name: 'about',
           file: 'content/pages/about.md',
-          fields: [
-            { name: 'seo_title', label: 'SEO Title', widget: 'string' },
-            { name: 'seo_description', label: 'SEO Description', widget: 'text' },
-            { name: 'heading', label: 'Heading', widget: 'string' },
-            { name: 'intro', label: 'Intro', widget: 'markdown' },
-            { name: 'image', label: 'Image', widget: 'image' },
-          ],
+          fields: [{ name: 'body', label: 'Body', widget: 'markdown' }],
         },
       ],
     },
-
     {
       label: 'Collection',
       name: 'collection',
@@ -156,6 +150,7 @@ const Admin = () => {
       // @ts-ignore
       CMS.registerPreviewStyle('../../node_modules/@fontsource/cardo/400.css');
       CMS.registerPreviewTemplate('home', HomePagePreview);
+      CMS.registerPreviewTemplate('about', AboutPagePreview);
     })();
   }, []);
 
