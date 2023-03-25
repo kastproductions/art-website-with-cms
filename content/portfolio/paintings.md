@@ -1,5 +1,5 @@
 ---
-title: Paintings
+title: Paintings collection
 description: Sunset
 images:
   - image: images/painting-ks1.jpg
