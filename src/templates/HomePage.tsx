@@ -91,6 +91,7 @@ export default function HomePagePreview({ entry, widgetFor }: any) {
     heading: entry.getIn(['data', 'heading']),
     intro: entry.getIn(['data', 'intro']),
     image: entry.getIn(['data', 'image']),
+    social_media_links: entry.getIn(['data', 'social_media_links']),
   };
 
   console.log({ data });

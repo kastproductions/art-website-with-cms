@@ -29,6 +29,7 @@ const config = {
     {
       label: 'Global settings',
       name: 'global_settings',
+      delete: false,
       files: [
         {
           label: 'Site',
@@ -40,28 +41,24 @@ const config = {
             { name: 'site_name', label: 'Site Name', widget: 'text' },
           ],
         },
-        {
-          label: 'Social Media',
-          name: 'social_media',
-          file: 'content/global_settings/social_media.md',
-          fields: [
-            {
-              label: 'Social media links',
-              name: 'social_media_links',
-              widget: 'list',
-              fields: [
-                { name: 'name', label: 'Name', widget: 'string' },
-                { name: 'url', label: 'Url', widget: 'string' },
-                { name: 'icon', label: 'Icon Name', widget: 'string' },
-              ],
-            },
-          ],
-        },
+      ],
+    },
+    {
+      label: 'Social media links',
+      name: 'social_media_links',
+      folder: 'content/social_media_links',
+      create: true,
+      delete: true,
+      fields: [
+        { name: 'name', label: 'Name', widget: 'string' },
+        { name: 'url', label: 'Url', widget: 'string' },
+        { name: 'icon', label: 'Icon Name', widget: 'string' },
       ],
     },
     {
       label: 'Pages',
       name: 'pages',
+      delete: false,
       files: [
         {
           label: 'Home Page',
@@ -94,6 +91,7 @@ const config = {
       name: 'portfolio',
       folder: 'content/portfolio',
       create: true,
+      delete: true,
       fields: [
         { name: 'title', label: 'Title', widget: 'string' },
         { name: 'description', label: 'Description', widget: 'markdown' },
