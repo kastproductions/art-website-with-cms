@@ -1,5 +1,5 @@
 ---
-title: Stained glass art collection
+title: Stained glass
 description: Traditional
 images:
   - image: images/img_4479.jpg
