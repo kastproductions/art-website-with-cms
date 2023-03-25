@@ -25,28 +25,34 @@ export function HomePage({ heading, intro, seo_title, seo_description, image }: 
       </Head>
       <Box as="main">
         <Box as="header" bg="#24372A" color="white">
-          <Container maxW="8xl" w="full" py={20}>
-            <Stack spacing={10}>
+          <Container maxW="7xl" w="full" py={[10, 10, 20]}>
+            <Stack spacing={[2, 2, 20]}>
               <HStack justify="center">
                 <Heading
                   as="h1"
                   fontWeight="normal"
-                  fontSize={['4xl', '8xl']}
+                  fontSize={['4xl', '4xl', '8xl']}
                   textAlign="center"
-                  maxW="4xl"
-                  textTransform="capitalize"
+                  maxW="5xl"
+                  textTransform="uppercase"
                 >
                   {heading}
                 </Heading>
               </HStack>
-              <HStack justify="center">
-                <Prose>
-                  <Box maxW="4xl" sx={{ img: { objectFit: 'cover', w: 'full', maxH: '50vh' } }} as={ReactMarkdown}>
-                    {intro}
+              <Stack direction={['column-reverse', 'column-reverse', 'row']} justify="center" spacing={[0, 0, 12]}>
+                {image && (
+                  <Box w={['full', 'full', '40%']}>
+                    <Img src={image} objectFit="contain" w="full" alt="Jurga at workshop" />
                   </Box>
-                </Prose>
-              </HStack>
-              {image && <Img src={image} maxH="50vh" objectFit="contain" w="full" alt="Jurga at workshop" />}
+                )}
+                <Box w={['full', 'full', '60%']}>
+                  <Prose>
+                    <Box sx={{ p: { fontSize: ['md', 'lg'], lineHeight: 'tall' } }} as={ReactMarkdown}>
+                      {intro}
+                    </Box>
+                  </Prose>
+                </Box>
+              </Stack>
             </Stack>
           </Container>
         </Box>
@@ -56,7 +62,7 @@ export function HomePage({ heading, intro, seo_title, seo_description, image }: 
               <Heading
                 as="h1"
                 fontWeight="normal"
-                fontSize={['4xl', '8xl']}
+                fontSize={['4xl', '4xl', '8xl']}
                 textAlign="center"
                 maxW="4xl"
                 textTransform="capitalize"
