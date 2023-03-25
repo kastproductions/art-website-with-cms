@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import ReactMarkdown from 'react-markdown';
-import { Container, Box, Heading, ThemeProvider, HStack, Stack, Img } from '@chakra-ui/react';
+import { Container, Box, Heading, ThemeProvider, HStack, Stack, Img, SimpleGrid, Text } from '@chakra-ui/react';
 import { Prose } from '@nikolovlazar/chakra-ui-prose';
 import { theme } from '@/pages/_app';
 // @ts-ignore
@@ -11,7 +11,8 @@ import weakMemoize from '@emotion/weak-memoize';
 
 const ogType = 'website';
 
-export function HomePage({ heading, intro, seo_title, seo_description, image }: any) {
+export function HomePage({ heading, intro, seo_title, seo_description, image, portfolio }: any) {
+  console.log({ portfolio });
   return (
     <>
       <Head>
@@ -70,6 +71,16 @@ export function HomePage({ heading, intro, seo_title, seo_description, image }: 
                 The Best Work
               </Heading>
             </HStack>
+            <SimpleGrid columns={[1, 2, 4]} spacing={6} pt={20}>
+              {portfolio.map(({ title, images }) => {
+                return (
+                  <Stack key={title}>
+                    <Img src={images[0].image} objectFit="cover" h={64} />
+                    <Text textAlign="center">{title}</Text>
+                  </Stack>
+                );
+              })}
+            </SimpleGrid>
           </Container>
         </Box>
       </Box>
