@@ -85,26 +85,7 @@ const config = {
         },
       ],
     },
-    {
-      label: 'Portfolio',
-      name: 'portfolio',
-      folder: 'content/portfolio',
-      create: true,
-      delete: true,
-      fields: [
-        { name: 'title', label: 'Title', widget: 'string' },
-        { name: 'description', label: 'Description', widget: 'markdown' },
-        {
-          label: 'Images',
-          name: 'images',
-          widget: 'list',
-          fields: [
-            { name: 'image', label: 'Image', widget: 'image' },
-            { name: 'alt', label: 'Alt Text', widget: 'string' },
-          ],
-        },
-      ],
-    },
+
     {
       label: 'Collection',
       name: 'collection',
@@ -131,6 +112,36 @@ const config = {
             },
           ],
         },
+      ],
+    },
+    {
+      label: 'Portfolio',
+      name: 'portfolio',
+      folder: 'content/portfolio',
+      create: true,
+      delete: true,
+      fields: [
+        { name: 'title', label: 'Title', widget: 'string' },
+        { name: 'description', label: 'Description', widget: 'markdown' },
+        {
+          label: 'Images',
+          name: 'images',
+          widget: 'list',
+          fields: [
+            { name: 'image', label: 'Image', widget: 'image' },
+            { name: 'alt', label: 'Alt Text', widget: 'string' },
+          ],
+        },
+        // {
+        //   label: 'Belongs to collection',
+        //   name: 'collection',
+        //   widget: 'relation',
+        //   collection: 'collection',
+        //   searchFields: ['title'],
+        //   valueField: 'title',
+        //   displayFields: ['title'],
+        //   multiple: true,
+        // },
       ],
     },
   ],
