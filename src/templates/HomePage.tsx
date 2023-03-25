@@ -12,7 +12,6 @@ import weakMemoize from '@emotion/weak-memoize';
 const ogType = 'website';
 
 export function HomePage({ heading, intro, seo_title, seo_description, image, portfolio }: any) {
-  console.log({ portfolio });
   return (
     <>
       <Head>
@@ -72,7 +71,7 @@ export function HomePage({ heading, intro, seo_title, seo_description, image, po
               </Heading>
             </HStack>
             <SimpleGrid columns={[1, 2, 4]} spacing={6} pt={20}>
-              {portfolio.map(({ title, images }) => {
+              {portfolio?.map(({ title, images }) => {
                 return (
                   <Stack key={title}>
                     <Img src={images[0].image} objectFit="cover" h={64} />
