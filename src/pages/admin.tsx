@@ -114,8 +114,8 @@ const config = {
         { name: 'title', label: 'Title', widget: 'string' },
         { name: 'description', label: 'Description', widget: 'markdown' },
         {
-          label: 'Portfolio items in this collection',
-          name: 'portfolio_items',
+          label: 'Art items in this collection',
+          name: 'art_items',
           widget: 'list',
           collapsed: false,
           fields: [
