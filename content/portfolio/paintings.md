@@ -1,5 +1,5 @@
 ---
-title: Painting 1
+title: Sunsert
 description: Sunset
 images:
   - image: images/painting-ks1.jpg
