@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
-import { HomePagePreview } from '../templates/HomePage';
-import { AboutPagePreview } from '../templates/AboutPage';
+import { HomePagePreview } from '@/templates/HomePage';
+import { AboutPagePreview } from '@/templates/AboutPage';
+import { CollectionPagePreview } from '@/templates/CollectionPage';
 
 // import styles from '../styles/@fontsource/cardo/400.module.css';
 // import styles from '../../node_modules/@fontsource/cardo/scss/mixins.scss';
@@ -101,12 +102,18 @@ const config = {
           file: 'content/pages/about.md',
           fields: [{ name: 'body', label: 'Body', widget: 'markdown' }],
         },
+        // {
+        //   label: 'Collection',
+        //   name: 'collection',
+        //   file: 'content/pages/collection.md',
+        //   fields: [{ name: 'body', label: 'Body', widget: 'markdown' }],
+        // },
       ],
     },
     {
-      label: 'Collection',
-      name: 'collection',
-      folder: 'content/collection',
+      label: 'Collection Page',
+      name: 'collection_page',
+      folder: 'content/pages/collection',
       create: true,
       delete: true,
       fields: [
@@ -119,34 +126,14 @@ const config = {
           collapsed: false,
           fields: [
             {
-              name: 'item',
-              label: 'Item',
+              name: 'title',
+              label: 'title',
               widget: 'relation',
               collection: 'portfolio',
               search_fields: ['title'],
               value_field: '{{title}}',
               display_fields: ['{{title}}'],
             },
-          ],
-        },
-      ],
-    },
-    {
-      label: 'Portfolio',
-      name: 'portfolio',
-      folder: 'content/portfolio',
-      create: true,
-      delete: true,
-      fields: [
-        { name: 'title', label: 'Title', widget: 'string' },
-        { name: 'description', label: 'Description', widget: 'markdown' },
-        {
-          label: 'Images',
-          name: 'images',
-          widget: 'list',
-          fields: [
-            { name: 'image', label: 'Image', widget: 'image' },
-            { name: 'alt', label: 'Alt Text', widget: 'string' },
           ],
         },
         // {
@@ -161,6 +148,84 @@ const config = {
         // },
       ],
     },
+    // {
+    //   label: 'Collection',
+    //   name: 'collection',
+    //   folder: 'content/collection',
+    //   create: true,
+    //   delete: true,
+    //   fields: [
+    //     { name: 'title', label: 'Title', widget: 'string' },
+    //     { name: 'description', label: 'Description', widget: 'markdown' },
+    //     {
+    //       label: 'Portfolio items in this collection',
+    //       name: 'portfolio_items',
+    //       widget: 'list',
+    //       collapsed: false,
+    //       fields: [
+    //         {
+    //           name: 'item',
+    //           label: 'Item',
+    //           widget: 'relation',
+    //           collection: 'art',
+    //           search_fields: ['title'],
+    //           value_field: '{{title}}',
+    //           display_fields: ['{{title}}'],
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
+    {
+      label: 'Art Page',
+      name: 'art_page',
+      folder: 'content/art',
+      create: true,
+      delete: true,
+      fields: [
+        { name: 'title', label: 'Title', widget: 'string' },
+        { name: 'description', label: 'Description', widget: 'markdown' },
+        {
+          label: 'Images',
+          name: 'images',
+          widget: 'list',
+          fields: [
+            { name: 'image', label: 'Image', widget: 'image' },
+            { name: 'alt', label: 'Alt Text', widget: 'string' },
+          ],
+        },
+      ],
+    },
+    // {
+    //   label: 'Portfolio',
+    //   name: 'portfolio',
+    //   folder: 'content/portfolio',
+    //   create: true,
+    //   delete: true,
+    //   fields: [
+    //     { name: 'title', label: 'Title', widget: 'string' },
+    //     { name: 'description', label: 'Description', widget: 'markdown' },
+    //     {
+    //       label: 'Images',
+    //       name: 'images',
+    //       widget: 'list',
+    //       fields: [
+    //         { name: 'image', label: 'Image', widget: 'image' },
+    //         { name: 'alt', label: 'Alt Text', widget: 'string' },
+    //       ],
+    //     },
+    //     // {
+    //     //   label: 'Belongs to collection',
+    //     //   name: 'collection',
+    //     //   widget: 'relation',
+    //     //   collection: 'collection',
+    //     //   searchFields: ['title'],
+    //     //   valueField: 'title',
+    //     //   displayFields: ['title'],
+    //     //   multiple: true,
+    //     // },
+    //   ],
+    // },
   ],
 };
 
@@ -171,10 +236,13 @@ const Admin = () => {
       // @ts-ignore
       CMS.init({ config });
       CMS.registerEventListener({
-        name: 'preSave',
-        handler: ({ entry }) => {
-          const entrydata = entry.get('data');
+        name: 'postSave',
+        // handler: ({ author, entry }) => console.log(JSON.stringify({ author, data: entry.get('data') })),
+        handler: (props) => {
+          console.log({ props });
+          const entrydata = props.entry.get('data');
           console.log({ entrydata });
+
           // const data= entry.get('data').set('title', 'new title');
         },
       });
@@ -182,6 +250,7 @@ const Admin = () => {
       // CMS.registerPreviewStyle(styles.toString(), { raw: true });
       // CMS.registerPreviewStyle(styles.toString(), { raw: true });
       // CMS.registerPreviewStyle('../styles/@fontsource/cardo/400.css', { raw: true });
+      CMS.registerPreviewTemplate('collection_page', CollectionPagePreview);
       CMS.registerPreviewTemplate('home', HomePagePreview);
       CMS.registerPreviewTemplate('about', AboutPagePreview);
     })();

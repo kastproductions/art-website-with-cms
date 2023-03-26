@@ -124,11 +124,12 @@ function DrawerExample({ social_media_links }) {
                 <Link
                   as={NextLink}
                   href="/"
-                  color="gray.900"
+                  color="gray.400"
                   fontSize="4xl"
                   variant="link"
                   justifyContent="start"
                   fontWeight="normal"
+                  _hover={{ textDecor: 'none' }}
                 >
                   Shop
                 </Link>

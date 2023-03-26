@@ -34,7 +34,7 @@ export function CmsPreviewWrapper({ children }) {
           ></link>
         </head>
         <ThemeProvider theme={theme}>
-          <Box as="main" bg="#EEEEEE">
+          <Box as="main" bg="#EEEEEE" minH="100vh">
             {children}
           </Box>
         </ThemeProvider>

@@ -31,40 +31,44 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
               </Stack>
             </Container>
           </Box>
-          <Box>
-            <Container as="section" maxW="8xl" w="full" py={28}>
-              <Stack spacing={[20, 20, 28]}>
-                {collections?.map(({ title, items }) => {
-                  return (
-                    <Stack key={title}>
-                      <Heading fontSize={['5xl', '5xl', '7xl']} fontWeight="normal">
-                        {title}
-                      </Heading>
-                      <SimpleGrid columns={[1, 2, 4]} spacing={8} pt={[6, 6, 10]}>
-                        {items?.map(({ title, images }) => {
-                          return (
-                            <Stack key={title}>
-                              <Img src={images[0].image} objectFit="cover" h={64} />
-                              <Text textAlign="center">{title}</Text>
-                            </Stack>
-                          );
-                        })}
-                      </SimpleGrid>
-                    </Stack>
-                  );
-                })}
-              </Stack>
-            </Container>
-            <Container as="section" maxW="8xl" w="full" py={[10, 10, 28]}>
-              <Stack spacing={[20, 20, 28]} w="full">
-                <HStack justify="center">
-                  <Heading maxW="4xl" as="h3" fontSize={['5xl', '5xl', '8xl']} fontWeight="normal" textAlign="center">
-                    {quote}
-                  </Heading>
-                </HStack>
-              </Stack>
-            </Container>
-          </Box>
+          <Container as="section" maxW="8xl" w="full" py={28}>
+            <Stack spacing={[20, 20, 28]}>
+              {collections?.map(({ title, items }) => {
+                return (
+                  <Stack key={title}>
+                    <Heading fontSize={['4xl', '4xl', '6xl']} maxW="5xl" fontWeight="normal">
+                      {title}
+                    </Heading>
+                    <Box
+                      pt={[8, 8, 10]}
+                      sx={{
+                        columnCount: [2, 3, 4],
+                        columnGap: [2, 4, 8],
+                      }}
+                    >
+                      {items?.map(({ title, images }) => {
+                        return (
+                          <Stack key={title} sx={{ breakInside: 'avoid', mb: 6 }}>
+                            <Img src={images[0].image} />
+                            <Text textAlign="center">{title}</Text>
+                          </Stack>
+                        );
+                      })}
+                    </Box>
+                  </Stack>
+                );
+              })}
+            </Stack>
+          </Container>
+          <Container as="section" maxW="8xl" w="full" py={[10, 10, 28]}>
+            <Stack spacing={[20, 20, 28]} w="full">
+              <HStack justify="center">
+                <Heading maxW="4xl" as="h3" fontSize={['5xl', '5xl', '8xl']} fontWeight="normal" textAlign="center">
+                  {quote}
+                </Heading>
+              </HStack>
+            </Stack>
+          </Container>
         </Box>
       </Stack>
     </>
