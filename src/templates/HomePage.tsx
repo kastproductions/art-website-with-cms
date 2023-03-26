@@ -3,7 +3,7 @@ import { Container, Box, Heading, HStack, Stack, Img, SimpleGrid, Text } from '@
 import { Prose } from '@nikolovlazar/chakra-ui-prose';
 import { CmsPreviewWrapper } from '@/utils/CmsPreviewWrapper';
 
-export function HomePage({ heading, intro, image, collections }: any) {
+export function HomePage({ heading, intro, image, quote, collections }: any) {
   return (
     <>
       <Stack isInline w="full" spacing={0}>
@@ -12,7 +12,7 @@ export function HomePage({ heading, intro, image, collections }: any) {
             <Container maxW="7xl" w="full" py={[10, 10, 20]}>
               <Stack spacing={[2, 2, 20]}>
                 <HStack justify="center">
-                  <Heading as="h1" fontWeight="normal" fontSize={['4xl', '4xl', '8xl']} textAlign="center" maxW="7xl">
+                  <Heading as="h1" fontWeight="normal" fontSize={['5xl', '5xl', '8xl']} textAlign="center" maxW="7xl">
                     {heading}
                   </Heading>
                 </HStack>
@@ -55,6 +55,15 @@ export function HomePage({ heading, intro, image, collections }: any) {
                 })}
               </Stack>
             </Container>
+            <Container as="section" maxW="8xl" w="full" py={[10, 10, 28]}>
+              <Stack spacing={[20, 20, 28]} w="full">
+                <HStack justify="center">
+                  <Heading maxW="4xl" as="h3" fontSize={['5xl', '5xl', '8xl']} fontWeight="normal" textAlign="center">
+                    {quote}
+                  </Heading>
+                </HStack>
+              </Stack>
+            </Container>
           </Box>
         </Box>
       </Stack>
@@ -69,6 +78,7 @@ export function HomePagePreview({ entry, widgetFor }: any) {
     heading: entry.getIn(['data', 'heading']),
     intro: entry.getIn(['data', 'intro']),
     image: entry.getIn(['data', 'image']),
+    quote: entry.getIn(['data', 'quote']),
   };
 
   return (

@@ -92,6 +92,7 @@ const config = {
             { name: 'heading', label: 'Heading', widget: 'string' },
             { name: 'intro', label: 'Intro', widget: 'markdown' },
             { name: 'image', label: 'Image', widget: 'image' },
+            { name: 'quote', label: 'Quote', widget: 'text' },
           ],
         },
         {
