@@ -30,18 +30,24 @@ import { CacheProvider } from '@emotion/react';
 // @ts-ignore
 import weakMemoize from '@emotion/weak-memoize';
 import React from 'react';
-import { FiMenu, FiX } from 'react-icons/fi';
+import { FiMenu, FiX, FiFacebook, FiInstagram, FiMail } from 'react-icons/fi';
 const ogType = 'website';
 import NextLink from 'next/link';
 
-export function Layout({ children }: any) {
+const icon = {
+  email: FiMail,
+  facebook: FiFacebook,
+  instagram: FiInstagram,
+};
+
+export function Layout({ children, social_media_links }: any) {
   return (
     <>
       <Box as="header" bg="#EEEEEE">
         <Container as="nav" maxW="8xl" w="full">
           <HStack h={[16, 24]}>
             <Box flex={1} pt={1.5}>
-              <DrawerExample />
+              <DrawerExample social_media_links={social_media_links} />
             </Box>
             <HStack justify="center" flex={1}>
               <Link as={NextLink} href="/">
@@ -61,10 +67,13 @@ export function Layout({ children }: any) {
   );
 }
 
-function DrawerExample() {
+function DrawerExample({ social_media_links }) {
   const { onOpen, onClose, isOpen } = useDisclosure();
   const btnRef = React.useRef();
   // const isOpen = true;
+
+  const emailUrl = social_media_links.find(({ name }) => name === 'email')?.url;
+
   return (
     <>
       <IconButton
@@ -91,63 +100,78 @@ function DrawerExample() {
               Close
             </Button>
           </Box>
-          <DrawerBody px={12} pb={8} bg="#EEEEEE">
-            <Stack spacing={1}>
-              <Link
-                as={NextLink}
-                href="/"
-                color="gray.900"
-                fontSize="4xl"
-                variant="link"
-                justifyContent="start"
-                fontWeight="normal"
-              >
-                Shop
-              </Link>
-              <Link
-                as={NextLink}
-                href="/"
-                color="gray.900"
-                fontSize="4xl"
-                variant="link"
-                justifyContent="start"
-                fontWeight="normal"
-              >
-                Gallery
-              </Link>
-            </Stack>
-            <Stack pt={10}>
-              <Link
-                as={NextLink}
-                href="/about-me"
-                fontSize="xl"
-                color="gray.900"
-                variant="link"
-                justifyContent="start"
-                fontWeight="normal"
-              >
-                About me
-              </Link>
-              <Link
-                as={NextLink}
-                href="/"
-                fontSize="xl"
-                color="gray.900"
-                variant="link"
-                justifyContent="start"
-                fontWeight="normal"
-              >
-                Get in touch
-              </Link>
-            </Stack>
-          </DrawerBody>
+          <DrawerBody
+            px={12}
+            pb={12}
+            bg="#EEEEEE"
+            display="flex"
+            flexDir="column"
+            justifyContent="space-between"
+            h="full"
+          >
+            <Stack>
+              <Stack spacing={1}>
+                <Link
+                  as={NextLink}
+                  href="/"
+                  color="gray.900"
+                  fontSize="4xl"
+                  variant="link"
+                  justifyContent="start"
+                  fontWeight="normal"
+                >
+                  Shop
+                </Link>
+                <Link
+                  as={NextLink}
+                  href="/"
+                  color="gray.900"
+                  fontSize="4xl"
+                  variant="link"
+                  justifyContent="start"
+                  fontWeight="normal"
+                >
+                  Gallery
+                </Link>
+              </Stack>
+              <Stack pt={10}>
+                <Link
+                  as={NextLink}
+                  href="/about-me"
+                  fontSize="xl"
+                  color="gray.900"
+                  variant="link"
+                  justifyContent="start"
+                  fontWeight="normal"
+                >
+                  About me
+                </Link>
 
-          {/* <DrawerFooter>
-              <Button variant="outline" mr={3} onClick={onClose}>
-                Cancel
-              </Button>
-              <Button colorScheme="blue">Save</Button>
-            </DrawerFooter> */}
+                <Link
+                  fontSize="xl"
+                  color="gray.900"
+                  variant="link"
+                  justifyContent="start"
+                  fontWeight="normal"
+                  isExternal
+                  href={emailUrl ? `mailto:${emailUrl}` : '/'}
+                >
+                  Get in touch
+                </Link>
+              </Stack>
+            </Stack>
+
+            <HStack spacing={4}>
+              {social_media_links.map(({ name, url }) => {
+                const Icon = icon[name];
+                return (
+                  <Link key={name} isExternal href={name === 'email' ? `mailto:${url}` : url}>
+                    <Icon fontSize={name === 'email' ? '2rem' : '1.8rem'} />
+                  </Link>
+                );
+              })}
+            </HStack>
+          </DrawerBody>
         </DrawerContent>
       </Drawer>
     </>
