@@ -1,5 +1,5 @@
 ---
-title: Stained glass 1
+title: Flowers - private collection
 description: Traditional
 images:
   - image: images/img_4479.jpg
