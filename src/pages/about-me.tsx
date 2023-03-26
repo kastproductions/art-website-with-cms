@@ -6,9 +6,9 @@ export default function Home({ data }: any) {
 }
 
 export async function getStaticProps() {
-  const { data } = matter.read('./content/pages/about.md');
+  const data = matter.read('./content/pages/about.md');
   return {
-    props: { data },
+    props: { data: { content: data.content } },
     revalidate: 1,
   };
 }

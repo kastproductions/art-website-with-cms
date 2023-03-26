@@ -34,7 +34,7 @@ import { FiMenu, FiX } from 'react-icons/fi';
 const ogType = 'website';
 import NextLink from 'next/link';
 
-export function AboutPage({ seo_title, seo_description, body }: any) {
+export function AboutPage({ seo_title, seo_description, content }: any) {
   return (
     <>
       <Head>
@@ -75,7 +75,7 @@ export function AboutPage({ seo_title, seo_description, body }: any) {
                   </HStack>
                   <Box w={['full', 'full', '60%']}>
                     <Prose>
-                      <Box as={ReactMarkdown}>{body}</Box>
+                      <Box as={ReactMarkdown}>{content}</Box>
                     </Prose>
                   </Box>
                 </Stack>
