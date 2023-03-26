@@ -37,19 +37,21 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
                 {collections?.map(({ title, items }) => {
                   return (
                     <Stack key={title}>
-                      <Heading fontSize={['5xl', '5xl', '7xl']} fontWeight="normal">
+                      <Heading fontSize={['4xl', '4xl', '6xl']} maxW="5xl" fontWeight="normal">
                         {title}
                       </Heading>
-                      <SimpleGrid columns={[1, 2, 4]} spacing={8} pt={[6, 6, 10]}>
+                      <Box sx={{ columnCount: [2, 3, 4], columnGap: [2, 4, 8] }} pt={[6, 6, 10]}>
                         {items?.map(({ title, images }) => {
                           return (
-                            <Stack key={title}>
-                              <Img src={images[0].image} objectFit="cover" h={64} />
-                              <Text textAlign="center">{title}</Text>
+                            <Stack key={title} sx={{ breakInside: 'avoid', mb: 6 }}>
+                              <Img src={images[0].image} />
+                              <Text textAlign="center" fontSize={['sm', 'md']}>
+                                {title}
+                              </Text>
                             </Stack>
                           );
                         })}
-                      </SimpleGrid>
+                      </Box>
                     </Stack>
                   );
                 })}
