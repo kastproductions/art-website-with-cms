@@ -24,4 +24,5 @@ intro: >-
 
   We invite you to browse our carefully chosen selection and discover the colourful, vibrant world of Jurga. Whether you're a passionate collector or just looking for inspiration, Jurga's Luminous Visions offers an engaging experience that will leave you appreciating the power and passion behind each piece.
 image: images/jurga_portretas_60x80.jpg
+quote: I paint what I am, what I feel, what I believe in.
 ---
