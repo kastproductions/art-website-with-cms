@@ -7,6 +7,7 @@ import Head from 'next/head';
 import '@fontsource/cardo';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/300.css';
+import { Layout } from '@/components/layout';
 
 const canonicalUrl = `https://jurgauzdilaite.netlify.app/`;
 const ogType = 'website';
@@ -34,7 +35,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   const router = useRouter();
 
-  const LayoutToUse = router.asPath.startsWith('/admin') ? React.Fragment : ChakraProvider;
+  const LayoutToUse = router.asPath.startsWith('/admin') ? React.Fragment : Wrapper;
 
   return (
     <>
@@ -51,9 +52,17 @@ export default function App({ Component, pageProps }: AppProps) {
         {/* <meta property="og:image" content={ogImgUrl} /> */}
         <meta property="og:url" content={canonicalUrl} />
       </Head>
-      <LayoutToUse theme={theme}>
+      <LayoutToUse>
         <Component {...pageProps} />
       </LayoutToUse>
     </>
+  );
+}
+
+function Wrapper({ children }) {
+  return (
+    <ChakraProvider theme={theme}>
+      <Layout>{children}</Layout>
+    </ChakraProvider>
   );
 }

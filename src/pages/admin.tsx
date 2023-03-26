@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
-import HomePagePreview from '../templates/HomePage';
-import AboutPagePreview from '../templates/AboutPage';
+import { HomePagePreview } from '../templates/HomePage';
+import { AboutPagePreview } from '../templates/AboutPage';
+
+// import styles from '../styles/@fontsource/cardo/400.module.css';
 
 const config = {
   backend: {
@@ -147,8 +149,15 @@ const Admin = () => {
       const CMS = (await import('netlify-cms-app')).default;
       // @ts-ignore
       CMS.init({ config });
+      CMS.registerEventListener({
+        name: 'preSave',
+        handler: ({ entry }) => {
+          // return entry.get('data').set('title', 'new title');
+        },
+      });
       // @ts-ignore
-      CMS.registerPreviewStyle('../../node_modules/@fontsource/cardo/400.css');
+      // CMS.registerPreviewStyle(styles.toString(), { raw: true });
+      // CMS.registerPreviewStyle('../styles/@fontsource/cardo/400.css', { raw: true });
       CMS.registerPreviewTemplate('home', HomePagePreview);
       CMS.registerPreviewTemplate('about', AboutPagePreview);
     })();
