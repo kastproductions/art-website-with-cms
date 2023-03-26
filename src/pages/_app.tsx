@@ -4,10 +4,9 @@ import { withProse } from '@nikolovlazar/chakra-ui-prose';
 import { useRouter } from 'next/router';
 import React from 'react';
 import Head from 'next/head';
-import '@fontsource/cardo';
+import '@fontsource/cardo/400.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/300.css';
-import { Layout } from '@/components/layout';
 
 const canonicalUrl = `https://jurgauzdilaite.netlify.app/`;
 const ogType = 'website';
@@ -18,8 +17,8 @@ const seo_description = `Welcome to Luminous Visions, the official online galler
 export const theme = extendTheme(
   {
     fonts: {
-      heading: `"Cardo", sans-serif`,
-      body: `"Roboto", sans-serif`,
+      heading: `'Cardo', serif`,
+      body: `'Roboto', sans-serif`,
     },
   },
   withProse({
@@ -60,9 +59,5 @@ export default function App({ Component, pageProps }: AppProps) {
 }
 
 function Wrapper({ children }) {
-  return (
-    <ChakraProvider theme={theme}>
-      <Layout>{children}</Layout>
-    </ChakraProvider>
-  );
+  return <ChakraProvider theme={theme}>{children}</ChakraProvider>;
 }

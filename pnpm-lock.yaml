@@ -27,6 +27,7 @@ specifiers:
   react-dom: 18.2.0
   react-icons: ^4.8.0
   react-markdown: ^8.0.6
+  sass: ^1.60.0
   showdown: ^2.1.0
   typescript: 4.9.5
   valtio: ^1.10.3
@@ -52,11 +53,12 @@ dependencies:
   immutable: 4.3.0
   netlify-cms: 2.10.192_xglgpdjzwmpwbpgheupqkwq2kq
   netlify-cms-app: 2.15.72_erfhifo2oa5moihqhvyxrpkx2m
-  next: 13.2.4_biqbaboplfbrettd7655fr4n2y
+  next: 13.2.4_5y7qh6ykubtj2qr2evk3di7hpa
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.8.0_react@18.2.0
   react-markdown: 8.0.6_pmekkgnqduwlme35zpnqhenc34
+  sass: 1.60.0
   showdown: 2.1.0
   typescript: 4.9.5
   valtio: 1.10.3_react@18.2.0
@@ -6854,7 +6856,7 @@ packages:
       - supports-color
     dev: false
 
-  /next/13.2.4_biqbaboplfbrettd7655fr4n2y:
+  /next/13.2.4_5y7qh6ykubtj2qr2evk3di7hpa:
     resolution: {integrity: sha512-g1I30317cThkEpvzfXujf0O4wtaQHtDCLhlivwlTJ885Ld+eOgcz7r3TGQzeU+cSRoNHtD8tsJgzxVdYojFssw==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -6881,6 +6883,7 @@ packages:
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      sass: 1.60.0
       styled-jsx: 5.1.1_react@18.2.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 13.2.4
@@ -8660,6 +8663,16 @@ packages:
     resolution: {integrity: sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg==}
     dependencies:
       truncate-utf8-bytes: 1.0.2
+    dev: false
+
+  /sass/1.60.0:
+    resolution: {integrity: sha512-updbwW6fNb5gGm8qMXzVO7V4sWf7LMXnMly/JEyfbfERbVH46Fn6q02BX7/eHTdKpE7d+oTkMMQpFWNUMfFbgQ==}
+    engines: {node: '>=12.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.3.0
+      source-map-js: 1.0.2
     dev: false
 
   /scheduler/0.19.1:

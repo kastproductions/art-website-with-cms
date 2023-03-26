@@ -1,14 +1,34 @@
 import matter from 'gray-matter';
 import { HomePage } from '../templates/HomePage';
 import fs from 'fs';
+import Head from 'next/head';
+import { Layout } from '@/components/layout';
 
-export default function Home({ data }: any) {
-  return <HomePage {...data} />;
+export default function Page({ data }: any) {
+  const { seo_title, seo_description, social_media_links, ...rest } = data;
+  return (
+    <>
+      <Head>
+        {seo_title && <title>{seo_title}</title>}
+        {seo_description && <meta name="description" content={seo_description} />}
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:type" content="website" />
+        {seo_description && <meta property="og:description" content={seo_description} />}
+        {/* <meta property="og:site_name" content={globalMeta.siteName} /> */}
+        {/* <meta property="og:image" content={ogImgUrl} /> */}
+      </Head>
+      <Layout social_media_links={social_media_links}>
+        <HomePage {...rest} />
+      </Layout>
+    </>
+  );
 }
 
 export async function getStaticProps() {
   const { data } = matter.read('./content/pages/home.md');
-
+  const {
+    data: { social_media_links },
+  } = matter.read('./content/site_settings/social_media_links.md');
   const filesInPortfolio = fs.readdirSync('./content/portfolio');
   // Get the front matter and slug (the filename without .md) of all files
   const portfolio = filesInPortfolio.map((filename) => {
@@ -29,7 +49,7 @@ export async function getStaticProps() {
   });
 
   return {
-    props: { data: { ...data, collections } },
+    props: { data: { ...data, collections, social_media_links } },
     revalidate: 1,
   };
 }

@@ -3,6 +3,7 @@ import { HomePagePreview } from '../templates/HomePage';
 import { AboutPagePreview } from '../templates/AboutPage';
 
 // import styles from '../styles/@fontsource/cardo/400.module.css';
+// import styles from '../../node_modules/@fontsource/cardo/scss/mixins.scss';
 
 const config = {
   backend: {
@@ -44,19 +45,38 @@ const config = {
             { name: 'name', label: 'Site Name', widget: 'text' },
           ],
         },
+        {
+          label: 'Social media links',
+          name: 'social_media_links',
+          file: 'content/site_settings/social_media_links.md',
+          fields: [
+            {
+              label: 'Social media links',
+              name: 'social_media_links',
+              widget: 'list',
+              collapsed: false,
+              create: true,
+              delete: true,
+              fields: [
+                { name: 'name', label: 'Name', widget: 'string' },
+                { name: 'url', label: 'Url', widget: 'string' },
+              ],
+            },
+          ],
+        },
       ],
     },
-    {
-      label: 'Social media links',
-      name: 'social_media_links',
-      folder: 'content/social_media_links',
-      create: true,
-      delete: true,
-      fields: [
-        { name: 'name', label: 'Name', widget: 'string' },
-        { name: 'url', label: 'Url', widget: 'string' },
-      ],
-    },
+    // {
+    //   label: 'Social media links',
+    //   name: 'social_media_links',
+    //   file: 'content/social_media_links',
+    //   create: true,
+    //   delete: true,
+    //   fields: [
+    //     { name: 'name', label: 'Name', widget: 'string' },
+    //     { name: 'url', label: 'Url', widget: 'string' },
+    //   ],
+    // },
     {
       label: 'Page',
       name: 'page',
@@ -152,10 +172,13 @@ const Admin = () => {
       CMS.registerEventListener({
         name: 'preSave',
         handler: ({ entry }) => {
-          // return entry.get('data').set('title', 'new title');
+          const entrydata = entry.get('data');
+          console.log({ entrydata });
+          // const data= entry.get('data').set('title', 'new title');
         },
       });
       // @ts-ignore
+      // CMS.registerPreviewStyle(styles.toString(), { raw: true });
       // CMS.registerPreviewStyle(styles.toString(), { raw: true });
       // CMS.registerPreviewStyle('../styles/@fontsource/cardo/400.css', { raw: true });
       CMS.registerPreviewTemplate('home', HomePagePreview);

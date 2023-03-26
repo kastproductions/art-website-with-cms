@@ -1,23 +1,11 @@
-import Head from 'next/head';
 import ReactMarkdown from 'react-markdown';
 import { Container, Box, Heading, HStack, Stack, Img, SimpleGrid, Text } from '@chakra-ui/react';
 import { Prose } from '@nikolovlazar/chakra-ui-prose';
 import { CmsPreviewWrapper } from '@/utils/CmsPreviewWrapper';
-const ogType = 'website';
 
-export function HomePage({ heading, intro, seo_title, seo_description, image, collections }: any) {
+export function HomePage({ heading, intro, image, collections }: any) {
   return (
     <>
-      <Head>
-        {seo_title && <title>{seo_title}</title>}
-        {seo_description && <meta name="description" content={seo_description} />}
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:type" content={ogType} />
-        {seo_description && <meta property="og:description" content={seo_description} />}
-        {/* <meta property="og:site_name" content={globalMeta.siteName} /> */}
-        {/* <meta property="og:image" content={ogImgUrl} /> */}
-      </Head>
-
       <Stack isInline w="full" spacing={0}>
         <Box w="full">
           <Box as="header">
