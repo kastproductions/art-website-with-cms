@@ -63,6 +63,16 @@ export function Layout({ children, social_media_links }: any) {
       <Box as="main" bg="#EEEEEE" minH="100vh">
         {children}
       </Box>
+      <Box as="footer" bg="#EEEEEE" w="full" py={10}>
+        <Container maxW="8xl" w="full">
+          <Text textAlign="center">
+            Copyright © 2023{' '}
+            <Link href="https://kastproductions.com" isExternal>
+              Kast Productions
+            </Link>
+          </Text>
+        </Container>
+      </Box>
     </>
   );
 }
