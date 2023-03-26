@@ -135,7 +135,7 @@ function DrawerExample({ social_media_links }) {
                 </Link>
                 <Link
                   as={NextLink}
-                  href="/"
+                  href="/gallery"
                   color="gray.900"
                   fontSize="4xl"
                   variant="link"
