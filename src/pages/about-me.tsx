@@ -25,9 +25,11 @@ export default function Page({ data }: any) {
 
 export async function getStaticProps() {
   const { content } = matter.read('./content/pages/about.md');
-  // const data = matter.read('./content/pages/about.md');
+  const {
+    data: { social_media_links },
+  } = matter.read('./content/site_settings/social_media_links.md');
   return {
-    props: { data: { body: content } },
+    props: { data: { body: content, social_media_links } },
     revalidate: 1,
   };
 }
