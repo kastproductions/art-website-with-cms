@@ -7,7 +7,7 @@ export function AboutPage({ body }: any) {
   return (
     <Stack isInline w="full" spacing={0}>
       <Box w="full">
-        <Box as="header">
+        <Box>
           <Container maxW="8xl" w="full" py={[10, 10, 20]}>
             <Stack spacing={[2, 2, 20]}>
               <HStack>

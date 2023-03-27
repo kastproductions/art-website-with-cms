@@ -122,14 +122,13 @@ function DrawerExample({ social_media_links }) {
             <Stack>
               <Stack spacing={1}>
                 <Link
-                  // as={NextLink}
-                  // href="/"
-                  color="gray.400"
+                  as={NextLink}
+                  href="/shop"
+                  color="gray.900"
                   fontSize="4xl"
                   variant="link"
                   justifyContent="start"
                   fontWeight="normal"
-                  _hover={{ textDecor: 'none' }}
                 >
                   Shop
                 </Link>
