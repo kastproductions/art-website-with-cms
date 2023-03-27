@@ -6,4 +6,6 @@ social_media_links:
     url: https://www.instagram.com/jurgauzdilaite
   - name: email
     url: jurga.art.ocean@gmail.com
+  - name: linkedin
+    url: https://www.linkedin.com/in/jurga-uzdilait%C4%97-131b62ab
 ---
