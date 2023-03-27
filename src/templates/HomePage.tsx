@@ -1,7 +1,10 @@
 import ReactMarkdown from 'react-markdown';
-import { Container, Box, Heading, HStack, Stack, Img, SimpleGrid, Text } from '@chakra-ui/react';
+import { Container, Box, Heading, HStack, Stack, Img, SimpleGrid, Text, Link } from '@chakra-ui/react';
 import { Prose } from '@nikolovlazar/chakra-ui-prose';
 import { CmsPreviewWrapper } from '@/utils/CmsPreviewWrapper';
+import slugify from 'slugify';
+import NextLink from 'next/link';
+import { GalleryItem } from '@/components/gallery-item';
 
 export function HomePage({ heading, intro, image, quote, collections }: any) {
   return (
@@ -40,17 +43,10 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
                       <Heading fontSize={['4xl', '4xl', '6xl']} maxW="5xl" fontWeight="normal">
                         {title}
                       </Heading>
-                      <Box sx={{ columnCount: [2, 3, 4], columnGap: [2, 4, 8] }} pt={[6, 6, 10]}>
-                        {items?.map(({ title, images }) => {
-                          return (
-                            <Stack key={title} sx={{ breakInside: 'avoid', mb: 6 }}>
-                              <Img src={images[0].image} />
-                              <Text textAlign="center" fontSize={['sm', 'md']}>
-                                {title}
-                              </Text>
-                            </Stack>
-                          );
-                        })}
+                      <Box sx={{ columnCount: [2, 3, 4], columnGap: [4, 4, 8] }} pt={[6, 6, 10]}>
+                        {items?.map((props) => (
+                          <GalleryItem key={props.name} {...props} />
+                        ))}
                       </Box>
                     </Stack>
                   );

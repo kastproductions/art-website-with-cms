@@ -29,6 +29,7 @@ specifiers:
   react-markdown: ^8.0.6
   sass: ^1.60.0
   showdown: ^2.1.0
+  slugify: ^1.6.6
   typescript: 4.9.5
   valtio: ^1.10.3
 
@@ -60,6 +61,7 @@ dependencies:
   react-markdown: 8.0.6_pmekkgnqduwlme35zpnqhenc34
   sass: 1.60.0
   showdown: 2.1.0
+  slugify: 1.6.6
   typescript: 4.9.5
   valtio: 1.10.3_react@18.2.0
 
@@ -8959,6 +8961,11 @@ packages:
       type-of: 2.0.1
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /slugify/1.6.6:
+    resolution: {integrity: sha512-h+z7HKHYXj6wJU+AnS/+IH8Uh9fdcX1Lrhg1/VMdf9PwoBQXFcXiAdsy2tSK0P6gKwJLXp02r90ahUCqHk9rrw==}
+    engines: {node: '>=8.0.0'}
     dev: false
 
   /sort-asc/0.1.0:

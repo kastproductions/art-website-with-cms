@@ -1,7 +1,5 @@
-import ReactMarkdown from 'react-markdown';
-import { Container, Box, Heading, HStack, Stack, Img, Text } from '@chakra-ui/react';
-// import { Prose } from '@nikolovlazar/chakra-ui-prose';
-// import { CmsPreviewWrapper } from '@/utils/CmsPreviewWrapper';
+import { Container, Box, Heading, HStack, Stack } from '@chakra-ui/react';
+import { GalleryItem } from '@/components/gallery-item';
 
 export function GalleryPage({ art }: any) {
   return (
@@ -16,17 +14,10 @@ export function GalleryPage({ art }: any) {
                 </Heading>
               </HStack>
               <Stack spacing={[10, 10, 28]} w="full">
-                <Box sx={{ columnCount: [2, 3, 4], columnGap: [2, 4, 8] }} pt={[6, 6, 10]}>
-                  {art?.map(({ title, images }) => {
-                    return (
-                      <Stack key={title} sx={{ breakInside: 'avoid', mb: 6 }}>
-                        <Img src={images[0].image} />
-                        <Text textAlign="center" fontSize={['sm', 'md']}>
-                          {title}
-                        </Text>
-                      </Stack>
-                    );
-                  })}
+                <Box sx={{ columnCount: [2, 3, 4], columnGap: [4, 4, 8] }} pt={[6, 6, 10]}>
+                  {art?.map((props) => (
+                    <GalleryItem key={props.title} {...props} />
+                  ))}
                 </Box>
               </Stack>
             </Stack>
