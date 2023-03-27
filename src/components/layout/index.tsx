@@ -177,7 +177,7 @@ function DrawerExample({ social_media_links }) {
                 const Icon = icon[name];
                 return (
                   <Link key={name} isExternal href={name === 'email' ? `mailto:${url}` : url}>
-                    <Icon fontSize={name === 'email' ? '2rem' : '1.8rem'} />
+                    {Icon && <Icon fontSize={name === 'email' ? '2rem' : '1.8rem'} />}
                   </Link>
                 );
               })}
