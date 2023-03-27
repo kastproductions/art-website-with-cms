@@ -30,7 +30,7 @@ import { CacheProvider } from '@emotion/react';
 // @ts-ignore
 import weakMemoize from '@emotion/weak-memoize';
 import React from 'react';
-import { FiMenu, FiX, FiFacebook, FiInstagram, FiMail } from 'react-icons/fi';
+import { FiMenu, FiX, FiFacebook, FiInstagram, FiMail, FiLinkedin } from 'react-icons/fi';
 const ogType = 'website';
 import NextLink from 'next/link';
 
@@ -38,6 +38,7 @@ const icon = {
   email: FiMail,
   facebook: FiFacebook,
   instagram: FiInstagram,
+  linkedin: FiLinkedin,
 };
 
 export function Layout({ children, social_media_links }: any) {
