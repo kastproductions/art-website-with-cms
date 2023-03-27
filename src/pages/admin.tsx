@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { HomePagePreview } from '../templates/HomePage';
 import { AboutPagePreview } from '../templates/AboutPage';
+import { ArtPagePreview } from '@/components/templates/pages/art';
 
 // import styles from '../styles/@fontsource/cardo/400.module.css';
 // import styles from '../../node_modules/@fontsource/cardo/scss/mixins.scss';
@@ -149,20 +150,21 @@ const config = {
             { name: 'alt', label: 'Alt Text', widget: 'string' },
           ],
         },
-        // {
-        //   label: 'Belongs to collection',
-        //   name: 'collection',
-        //   widget: 'relation',
-        //   collection: 'collection',
-        //   searchFields: ['title'],
-        //   valueField: 'title',
-        //   displayFields: ['title'],
-        //   multiple: true,
-        // },
       ],
     },
   ],
 };
+
+// {
+//   label: 'Belongs to collection',
+//   name: 'collection',
+//   widget: 'relation',
+//   collection: 'collection',
+//   searchFields: ['title'],
+//   valueField: 'title',
+//   displayFields: ['title'],
+//   multiple: true,
+// },
 
 const Admin = () => {
   useEffect(() => {
@@ -182,6 +184,7 @@ const Admin = () => {
       // CMS.registerPreviewStyle(styles.toString(), { raw: true });
       // CMS.registerPreviewStyle(styles.toString(), { raw: true });
       // CMS.registerPreviewStyle('../styles/@fontsource/cardo/400.css', { raw: true });
+      CMS.registerPreviewTemplate('portfolio', ArtPagePreview);
       CMS.registerPreviewTemplate('home', HomePagePreview);
       CMS.registerPreviewTemplate('about', AboutPagePreview);
     })();
