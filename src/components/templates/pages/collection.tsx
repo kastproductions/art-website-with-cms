@@ -4,11 +4,10 @@ import { Prose } from '@nikolovlazar/chakra-ui-prose';
 import { CmsPreviewWrapper } from '@/utils/CmsPreviewWrapper';
 import { GalleryItem } from '@/components/gallery-item';
 // import { getAsset, getEntry } from 'netlify-cms';
-import React from 'react';
+// import React from 'react';
 // import { getAsset, getEntry } from 'netlify-cms';
 
 export function CollectionPage({ title, description, items }: any) {
-  console.log({ items });
   return (
     <Stack isInline w="full" spacing={0}>
       <Container as="section" maxW="8xl" w="full" py={28}>

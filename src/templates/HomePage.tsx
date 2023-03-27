@@ -22,7 +22,7 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
                 <Stack direction={['column-reverse', 'column-reverse', 'row']} justify="center" spacing={[0, 0, 12]}>
                   {image && (
                     <Box w={['full', 'full', '40%']}>
-                      <Img src={image} objectFit="contain" w="full" alt="Jurga at workshop" />
+                      <Img src={`/${image}`} objectFit="contain" w="full" alt="Jurga at workshop" />
                     </Box>
                   )}
                   <Box w={['full', 'full', '60%']}>
