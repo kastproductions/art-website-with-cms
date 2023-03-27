@@ -8,18 +8,14 @@ export default class Document extends NextDocument {
       <Html lang="en">
         <Head>
           {/* Netlify Widget */}
-          <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+          {/* <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js" /> */}
         </Head>
-        <body
-          style={{
-            paddingRight: '0 !important',
-          }}
-        >
+        <body>
           {/* 👇 Here's the script */}
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
           <NextScript />
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `
               if (window.netlifyIdentity) {
@@ -33,7 +29,7 @@ export default class Document extends NextDocument {
               }
           `,
             }}
-          />
+          /> */}
         </body>
       </Html>
     );
