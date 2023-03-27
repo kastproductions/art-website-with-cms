@@ -22,6 +22,7 @@ specifiers:
   immutable: ^4.3.0
   netlify-cms: ^2.10.192
   netlify-cms-app: ^2.15.72
+  netlify-cms-core: ^2.55.2
   next: 13.2.4
   react: 18.2.0
   react-dom: 18.2.0
@@ -54,6 +55,7 @@ dependencies:
   immutable: 4.3.0
   netlify-cms: 2.10.192_xglgpdjzwmpwbpgheupqkwq2kq
   netlify-cms-app: 2.15.72_erfhifo2oa5moihqhvyxrpkx2m
+  netlify-cms-core: 2.55.2_o6wgckauyw6qzlpeszcduxa2eu
   next: 13.2.4_5y7qh6ykubtj2qr2evk3di7hpa
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -5927,7 +5929,7 @@ packages:
       react-redux: 7.2.9_wcqkhtmu7mswc6yz4uyexck3ty
       react-router-dom: 5.3.4_react@16.14.0
       react-scroll-sync: 0.9.0_wcqkhtmu7mswc6yz4uyexck3ty
-      react-sortable-hoc: 2.0.0_ccrd4luiijsxnlhe6bgkvyy2z4
+      react-sortable-hoc: 2.0.0_wcqkhtmu7mswc6yz4uyexck3ty
       react-split-pane: 0.1.92_wcqkhtmu7mswc6yz4uyexck3ty
       react-topbar-progress-indicator: 4.1.1_react@16.14.0
       react-virtualized-auto-sizer: 1.0.7_wcqkhtmu7mswc6yz4uyexck3ty
@@ -6010,7 +6012,82 @@ packages:
       react-redux: 7.2.9_biqbaboplfbrettd7655fr4n2y
       react-router-dom: 5.3.4_react@18.2.0
       react-scroll-sync: 0.9.0_biqbaboplfbrettd7655fr4n2y
-      react-sortable-hoc: 2.0.0_v2m5e27vhdewzwhryxwfaorcca
+      react-sortable-hoc: 2.0.0_biqbaboplfbrettd7655fr4n2y
+      react-split-pane: 0.1.92_biqbaboplfbrettd7655fr4n2y
+      react-topbar-progress-indicator: 4.1.1_react@18.2.0
+      react-virtualized-auto-sizer: 1.0.7_biqbaboplfbrettd7655fr4n2y
+      react-waypoint: 10.3.0_react@18.2.0
+      react-window: 1.8.8_biqbaboplfbrettd7655fr4n2y
+      redux: 4.2.1
+      redux-devtools-extension: 2.13.9_redux@4.2.1
+      redux-notifications: 4.0.1_egguyi6kvemdtrnkbl3bdoeaey
+      redux-thunk: 2.4.2_redux@4.2.1
+      remark-gfm: 1.0.0
+      sanitize-filename: 1.6.3
+      semaphore: 1.1.0
+      tomlify-j0.4: 3.0.0
+      url: 0.11.0
+      url-join: 4.0.1
+      what-input: 5.2.12
+      yaml: 1.10.2
+    transitivePeerDependencies:
+      - '@types/hoist-non-react-statics'
+      - '@types/node'
+      - '@types/react'
+      - react-native
+      - supports-color
+    dev: false
+
+  /netlify-cms-core/2.55.2_o6wgckauyw6qzlpeszcduxa2eu:
+    resolution: {integrity: sha512-g7pU53axFQt8n3zzyNt/FI8vPv/lZ+G4cJnh5sfyWSM9/rK4wr7DeDfZTbmjPeonfuUFiD1UrFqzwqAnT7BjTA==}
+    peerDependencies:
+      '@emotion/core': ^10.0.35
+      '@emotion/styled': ^10.0.27
+      immutable: ^3.7.6
+      lodash: ^4.17.11
+      moment: ^2.24.0
+      netlify-cms-editor-component-image: ^2.6.7
+      netlify-cms-lib-auth: ^2.3.0
+      netlify-cms-lib-util: ^2.12.3
+      netlify-cms-lib-widgets: ^1.6.1
+      netlify-cms-ui-default: ^2.12.1
+      react: ^16.8.4 || ^17.0.0
+      react-dom: ^16.8.4 || ^17.0.0
+    dependencies:
+      '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
+      '@iarna/toml': 2.2.5
+      ajv: 8.1.0
+      ajv-errors: 3.0.0_ajv@8.1.0
+      ajv-keywords: 5.1.0_ajv@8.1.0
+      clean-stack: 4.2.0
+      copy-text-to-clipboard: 3.1.0
+      deepmerge: 4.3.1
+      diacritics: 1.3.0
+      fuzzy: 0.1.3
+      gotrue-js: 0.9.29
+      gray-matter: 4.0.3
+      history: 4.10.1
+      immer: 9.0.21
+      immutable: 4.3.0
+      js-base64: 3.7.5
+      jwt-decode: 3.1.2
+      node-polyglot: 2.5.0
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dnd: 14.0.5_d7wjnpxqkfc4xuzdqjtarlcvoy
+      react-dnd-html5-backend: 14.1.0
+      react-dom: 18.2.0_react@18.2.0
+      react-frame-component: 5.2.6_v2m5e27vhdewzwhryxwfaorcca
+      react-hot-loader: 4.13.1_zula6vjvt3wdocc4mwcxqa6nzi
+      react-immutable-proptypes: 2.2.0_immutable@4.3.0
+      react-is: 16.13.1
+      react-markdown: 6.0.3_pmekkgnqduwlme35zpnqhenc34
+      react-modal: 3.16.1_biqbaboplfbrettd7655fr4n2y
+      react-polyglot: 0.7.2_ulgunbipn5dtxzkj7srukdadoy
+      react-redux: 7.2.9_biqbaboplfbrettd7655fr4n2y
+      react-router-dom: 5.3.4_react@18.2.0
+      react-scroll-sync: 0.9.0_biqbaboplfbrettd7655fr4n2y
+      react-sortable-hoc: 2.0.0_biqbaboplfbrettd7655fr4n2y
       react-split-pane: 0.1.92_biqbaboplfbrettd7655fr4n2y
       react-topbar-progress-indicator: 4.1.1_react@18.2.0
       react-virtualized-auto-sizer: 1.0.7_biqbaboplfbrettd7655fr4n2y
@@ -6355,7 +6432,7 @@ packages:
       prop-types: 15.8.1
       react: 16.14.0
       react-immutable-proptypes: 2.2.0_immutable@3.8.2
-      react-sortable-hoc: 2.0.0_ccrd4luiijsxnlhe6bgkvyy2z4
+      react-sortable-hoc: 2.0.0_wcqkhtmu7mswc6yz4uyexck3ty
       uuid: 3.4.0
     transitivePeerDependencies:
       - react-dom
@@ -6382,7 +6459,7 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-immutable-proptypes: 2.2.0_immutable@3.8.2
-      react-sortable-hoc: 2.0.0_v2m5e27vhdewzwhryxwfaorcca
+      react-sortable-hoc: 2.0.0_biqbaboplfbrettd7655fr4n2y
       uuid: 3.4.0
     transitivePeerDependencies:
       - react-dom
@@ -6452,7 +6529,7 @@ packages:
       prop-types: 15.8.1
       react: 16.14.0
       react-immutable-proptypes: 2.2.0_immutable@3.8.2
-      react-sortable-hoc: 2.0.0_ccrd4luiijsxnlhe6bgkvyy2z4
+      react-sortable-hoc: 2.0.0_wcqkhtmu7mswc6yz4uyexck3ty
     transitivePeerDependencies:
       - react-dom
     dev: false
@@ -6481,7 +6558,7 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-immutable-proptypes: 2.2.0_immutable@3.8.2
-      react-sortable-hoc: 2.0.0_v2m5e27vhdewzwhryxwfaorcca
+      react-sortable-hoc: 2.0.0_biqbaboplfbrettd7655fr4n2y
     transitivePeerDependencies:
       - react-dom
     dev: false
@@ -6702,7 +6779,7 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-select: 4.3.1_zula6vjvt3wdocc4mwcxqa6nzi
-      react-sortable-hoc: 2.0.0_v2m5e27vhdewzwhryxwfaorcca
+      react-sortable-hoc: 2.0.0_biqbaboplfbrettd7655fr4n2y
       react-window: 1.8.8_biqbaboplfbrettd7655fr4n2y
       uuid: 3.4.0
     transitivePeerDependencies:
@@ -6732,7 +6809,7 @@ packages:
       prop-types: 15.8.1
       react: 16.14.0
       react-select: 4.3.1_ad4wqsx7scwi75atf3jj762g2a
-      react-sortable-hoc: 2.0.0_ccrd4luiijsxnlhe6bgkvyy2z4
+      react-sortable-hoc: 2.0.0_wcqkhtmu7mswc6yz4uyexck3ty
       react-window: 1.8.8_wcqkhtmu7mswc6yz4uyexck3ty
       uuid: 3.4.0
     transitivePeerDependencies:
@@ -7644,6 +7721,15 @@ packages:
       invariant: 2.2.4
     dev: false
 
+  /react-immutable-proptypes/2.2.0_immutable@4.3.0:
+    resolution: {integrity: sha512-Vf4gBsePlwdGvSZoLSBfd4HAP93HDauMY4fDjXhreg/vg6F3Fj/MXDNyTbltPC/xZKmZc+cjLu3598DdYK6sgQ==}
+    peerDependencies:
+      immutable: '>=3.6.2'
+    dependencies:
+      immutable: 4.3.0
+      invariant: 2.2.4
+    dev: false
+
   /react-input-autosize/3.0.0_react@16.14.0:
     resolution: {integrity: sha512-nL9uS7jEs/zu8sqwFE5MAPx6pPkNAriACQ2rGLlqmKr2sPGtN7TXTyDdQt4lbNXVx7Uzadb40x8qotIuru6Rhg==}
     peerDependencies:
@@ -8044,24 +8130,9 @@ packages:
       - '@types/react'
     dev: false
 
-  /react-sortable-hoc/2.0.0_ccrd4luiijsxnlhe6bgkvyy2z4:
+  /react-sortable-hoc/2.0.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-JZUw7hBsAHXK7PTyErJyI7SopSBFRcFHDjWW5SWjcugY0i6iH7f+eJkY8cJmGMlZ1C9xz1J3Vjz0plFpavVeRg==}
     peerDependencies:
-      prop-types: ^15.5.7
-      react: ^16.3.0 || ^17.0.0
-      react-dom: ^16.3.0 || ^17.0.0
-    dependencies:
-      '@babel/runtime': 7.21.0
-      invariant: 2.2.4
-      prop-types: 15.8.1
-      react: 16.14.0
-      react-dom: 16.14.0_react@16.14.0
-    dev: false
-
-  /react-sortable-hoc/2.0.0_v2m5e27vhdewzwhryxwfaorcca:
-    resolution: {integrity: sha512-JZUw7hBsAHXK7PTyErJyI7SopSBFRcFHDjWW5SWjcugY0i6iH7f+eJkY8cJmGMlZ1C9xz1J3Vjz0plFpavVeRg==}
-    peerDependencies:
-      prop-types: ^15.5.7
       react: ^16.3.0 || ^17.0.0
       react-dom: ^16.3.0 || ^17.0.0
     dependencies:
@@ -8070,6 +8141,19 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /react-sortable-hoc/2.0.0_wcqkhtmu7mswc6yz4uyexck3ty:
+    resolution: {integrity: sha512-JZUw7hBsAHXK7PTyErJyI7SopSBFRcFHDjWW5SWjcugY0i6iH7f+eJkY8cJmGMlZ1C9xz1J3Vjz0plFpavVeRg==}
+    peerDependencies:
+      react: ^16.3.0 || ^17.0.0
+      react-dom: ^16.3.0 || ^17.0.0
+    dependencies:
+      '@babel/runtime': 7.21.0
+      invariant: 2.2.4
+      prop-types: 15.8.1
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
     dev: false
 
   /react-split-pane/0.1.92_biqbaboplfbrettd7655fr4n2y:
@@ -8276,7 +8360,7 @@ packages:
       consolidated-events: 2.0.2
       prop-types: 15.8.1
       react: 16.14.0
-      react-is: 17.0.2
+      react-is: 18.2.0
     dev: false
 
   /react-waypoint/10.3.0_react@18.2.0:
@@ -8288,7 +8372,7 @@ packages:
       consolidated-events: 2.0.2
       prop-types: 15.8.1
       react: 18.2.0
-      react-is: 17.0.2
+      react-is: 18.2.0
     dev: false
 
   /react-window/1.8.8_biqbaboplfbrettd7655fr4n2y:

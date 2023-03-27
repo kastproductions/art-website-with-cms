@@ -9,12 +9,14 @@ export default class Document extends NextDocument {
         <Head>
           {/* Netlify Widget */}
           {/* <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js" /> */}
+          {/* <script>window.CMS_MANUAL_INIT=true</script> */}
         </Head>
         <body>
           {/* 👇 Here's the script */}
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
           <NextScript />
+          <script dangerouslySetInnerHTML={{ __html: `window.CMS_MANUAL_INIT = true` }} />
           {/* <script
             dangerouslySetInnerHTML={{
               __html: `

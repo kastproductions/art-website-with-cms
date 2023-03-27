@@ -2,10 +2,27 @@ import { useEffect } from 'react';
 import { HomePagePreview } from '../templates/HomePage';
 import { AboutPagePreview } from '../templates/AboutPage';
 import { ArtPagePreview } from '@/components/templates/pages/art';
+import { CollectionPagePreview } from '@/components/templates/pages/collection';
+// import CMS,{ getAsset, getEntry } from 'netlify-cms';
 
 // import styles from '../styles/@fontsource/cardo/400.module.css';
 // import styles from '../../node_modules/@fontsource/cardo/scss/mixins.scss';
 
+// media_library: {
+//   name: 'cloudinary',
+//   config: {
+//     cloud_name: 'dmkg8rfly',
+//     api_key: '398367376997286',
+//     default_transformations: {
+//       fetch_format: 'auto',
+//       quality: 'auto',
+//       gravity: 'auto',
+//       crop: 'fill',
+//     },
+//   },
+// },
+// media_folder: 'public/uploads',
+// public_folder: 'uploads',
 const config = {
   backend: {
     name: 'git-gateway',
@@ -14,21 +31,6 @@ const config = {
   media_folder: 'public/images',
   public_folder: 'images',
 
-  // media_library: {
-  //   name: 'cloudinary',
-  //   config: {
-  //     cloud_name: 'dmkg8rfly',
-  //     api_key: '398367376997286',
-  //     default_transformations: {
-  //       fetch_format: 'auto',
-  //       quality: 'auto',
-  //       gravity: 'auto',
-  //       crop: 'fill',
-  //     },
-  //   },
-  // },
-  // media_folder: 'public/uploads',
-  // public_folder: 'uploads',
   publish_mode: 'editorial_workflow',
   collections: [
     {
@@ -67,17 +69,6 @@ const config = {
         },
       ],
     },
-    // {
-    //   label: 'Social media links',
-    //   name: 'social_media_links',
-    //   file: 'content/social_media_links',
-    //   create: true,
-    //   delete: true,
-    //   fields: [
-    //     { name: 'name', label: 'Name', widget: 'string' },
-    //     { name: 'url', label: 'Url', widget: 'string' },
-    //   ],
-    // },
     {
       label: 'Page',
       name: 'page',
@@ -180,10 +171,8 @@ const Admin = () => {
           // const data= entry.get('data').set('title', 'new title');
         },
       });
-      // @ts-ignore
-      // CMS.registerPreviewStyle(styles.toString(), { raw: true });
-      // CMS.registerPreviewStyle(styles.toString(), { raw: true });
-      // CMS.registerPreviewStyle('../styles/@fontsource/cardo/400.css', { raw: true });
+
+      CMS.registerPreviewTemplate('collection', CollectionPagePreview);
       CMS.registerPreviewTemplate('portfolio', ArtPagePreview);
       CMS.registerPreviewTemplate('home', HomePagePreview);
       CMS.registerPreviewTemplate('about', AboutPagePreview);

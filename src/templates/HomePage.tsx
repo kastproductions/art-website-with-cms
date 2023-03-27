@@ -11,7 +11,7 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
     <>
       <Stack isInline w="full" spacing={0}>
         <Box w="full">
-          <Box as="header">
+          <Box>
             <Container maxW="7xl" w="full" py={[10, 10, 20]}>
               <Stack spacing={[2, 2, 20]}>
                 <HStack justify="center">
@@ -40,9 +40,17 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
                 {collections?.map(({ title, items }) => {
                   return (
                     <Stack key={title}>
-                      <Heading fontSize={['4xl', '4xl', '6xl']} maxW="5xl" fontWeight="normal">
-                        {title}
-                      </Heading>
+                      <Link
+                        as={NextLink}
+                        href={`/collection/${slugify(title, {
+                          strict: true,
+                          lower: true,
+                        })}`}
+                      >
+                        <Heading fontSize={['4xl', '4xl', '6xl']} maxW="5xl" fontWeight="normal">
+                          {title}
+                        </Heading>
+                      </Link>
                       <Box sx={{ columnCount: [2, 3, 4], columnGap: [4, 4, 8] }} pt={[6, 6, 10]}>
                         {items?.map((props) => (
                           <GalleryItem key={props.name} {...props} />
