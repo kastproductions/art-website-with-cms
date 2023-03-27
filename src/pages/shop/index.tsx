@@ -26,7 +26,7 @@ export default function Page({ data }: any) {
                 Shop
               </Heading>
             </HStack>
-            <Text fontSize={['md', 'md', 'lg']} color="gray.500">
+            <Text fontSize={['md', 'xl']} color="gray.500">
               Sold out. Please contact me via email if you would like to place an order.
             </Text>
             {/* <Box w={['full', 'full', '60%']}>
