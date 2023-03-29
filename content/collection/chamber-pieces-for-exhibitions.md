@@ -7,4 +7,5 @@ portfolio_items:
   - item: "The Sword of Damocles, 2017, classical thin glass technique, 100x70 cm "
   - item: "Vision, 2008, classical thin glass technique, 100x70 cm "
   - item: "Night, 1989, molded glass, 50x40 "
+  - item: "Game, 1997, classical thin stained glass technique, 65x63 cm "
 ---
