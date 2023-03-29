@@ -1,6 +1,6 @@
 ---
 title: Chapel of St. Ignatius Loyola at the Karalius Mindaugas vocational
-  training center, Kaunas (interior)
+  training center, Kaunas, Lithuania (interior)
 description: "1"
 images:
   - alt: "1"
