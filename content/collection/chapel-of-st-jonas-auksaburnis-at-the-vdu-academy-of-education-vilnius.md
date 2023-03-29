@@ -9,4 +9,6 @@ portfolio_items:
       Vilnius, Lithuania
   - item: 3 - Chapel of St. Jonas Auksaburnis at the VMU Academy of Education,
       Vilnius, Lithuania
+  - item: 4 - Chapel of St. Jonas Auksaburnis at the VMU Academy of Education,
+      Vilnius, Lithuania
 ---
