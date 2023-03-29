@@ -9,4 +9,6 @@ portfolio_items:
       Military Academy, Vilnius, Lithuania
   - item: Section 2 - Chapel of St. Anselm at the General Jonas Žemaitis Lithuanian
       Military Academy, Vilnius, Lithuania
+  - item: Chapel of St. Anselm at the General Jonas Žemaitis Lithuanian Military
+      Academy, Vilnius, Lithuania
 ---
