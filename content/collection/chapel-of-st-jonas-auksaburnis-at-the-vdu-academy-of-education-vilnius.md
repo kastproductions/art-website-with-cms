@@ -14,4 +14,6 @@ portfolio_items:
       Vilnius
   - item: 6 - Chapel of St. Jonas Auksaburnis at the VDU Academy of Education,
       Vilnius
+  - item: 1 - Chapel of St. Jonas Auksaburnis at the VDU Academy of Education,
+      Vilnius, Lithuania
 ---
