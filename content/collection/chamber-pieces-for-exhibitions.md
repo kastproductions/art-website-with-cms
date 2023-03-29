@@ -11,4 +11,6 @@ portfolio_items:
   - item: "Secrets of the Dukes Oginski Manor, 2019, classical thin stained glass
       technique, 90x56 cm "
   - item: "The Queen, 2018, classical thin glass technique, 100x70 cm "
+  - item: The Queen, 2018, classical thin glass technique, 100x70 cm (at the
+      exhibition)
 ---
