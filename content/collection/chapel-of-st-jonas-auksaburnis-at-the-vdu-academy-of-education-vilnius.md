@@ -1,5 +1,6 @@
 ---
-title: Chapel of St. Jonas Auksaburnis at the VDU Academy of Education, Vilnius
+title: Chapel of St. Jonas Auksaburnis at the VDU Academy of Education, Vilnius,
+  Lithuania
 description: "1"
 portfolio_items:
   - item: Chapel of St. Jonas Auksaburnis at the VDU Academy of Education, Vilnius
@@ -7,7 +8,7 @@ portfolio_items:
   - item: 2 - Chapel of St. Jonas Auksaburnis at the VDU Academy of Education,
       Vilnius
   - item: 3 - Chapel of St. Jonas Auksaburnis at the VDU Academy of Education,
-      Vilnius
+      Vilnius, Lithuania
   - item: 4 - Chapel of St. Jonas Auksaburnis at the VDU Academy of Education,
       Vilnius
   - item: 5 - Chapel of St. Jonas Auksaburnis at the VDU Academy of Education,
