@@ -7,4 +7,5 @@ portfolio_items:
   - item: Section 3 - Vilkaviškis Diocese Pastoral Center in Marijampolė, Lithuania
   - item: 4 - Vilkaviškis Diocese Pastoral Center in Marijampolė, Lithuania
       (fragment)
+  - item: Section 2 - Vilkaviškis Diocese Pastoral Center in Marijampolė, Lithuania
 ---
