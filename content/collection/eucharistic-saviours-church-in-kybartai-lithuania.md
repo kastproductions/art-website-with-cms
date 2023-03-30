@@ -5,4 +5,5 @@ portfolio_items:
   - item: Eucharistic Saviour's Church in Kybartai, Lithuania (interior)
   - item: 1 - Eucharistic Saviour's Church in Kybartai, Lithuania
   - item: 2 - Eucharistic Saviour's Church in Kybartai, Lithuania
+  - item: 1 - Eucharistic Saviour's Church in Kybartai, Lithuania (fragment)
 ---
