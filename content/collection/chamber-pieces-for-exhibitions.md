@@ -15,4 +15,6 @@ portfolio_items:
       exhibition)
   - item: Water lily, 20218, classical thin glass technique, 30x30 cm (private
       interior, Germany)
+  - item: Secrets of the Dukes Oginski Manor, 2019, classical thin stained glass
+      technique, 90x56 cm (fragment)
 ---
