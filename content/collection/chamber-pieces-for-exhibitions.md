@@ -19,4 +19,6 @@ portfolio_items:
       technique, 90x56 cm (fragment)
   - item: City, 1998, classical thin stained glass technique, 70x50 cm (private
       interior, Vilnius)
+  - item: The Sword of Damocles, 2017, classical thin glass technique, 100x70 cm
+      (fragment)
 ---
