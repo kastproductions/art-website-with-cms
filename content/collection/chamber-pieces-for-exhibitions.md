@@ -13,4 +13,6 @@ portfolio_items:
   - item: "The Queen, 2018, classical thin glass technique, 100x70 cm "
   - item: The Queen, 2018, classical thin glass technique, 100x70 cm (at the
       exhibition)
+  - item: Water lily, 20218, classical thin glass technique, 30x30 cm (private
+      interior, Germany)
 ---
