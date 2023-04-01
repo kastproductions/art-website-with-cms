@@ -136,9 +136,48 @@ const config = {
           label: 'Images',
           name: 'images',
           widget: 'list',
+          default: [],
           fields: [
             { name: 'image', label: 'Image', widget: 'image' },
             { name: 'alt', label: 'Alt Text', widget: 'string' },
+          ],
+        },
+        {
+          name: 'tags',
+          label: 'Tags',
+          widget: 'list',
+          default: [],
+          field: {
+            name: 'tag',
+            label: 'Tag',
+            widget: 'relation',
+            collection: 'tags',
+            searchFields: ['tags.tag'],
+            valueField: 'tags.tag',
+          },
+        },
+      ],
+    },
+    {
+      name: 'tags',
+      label: 'Tags',
+      files: [
+        {
+          name: 'tags',
+          label: 'Tags',
+          file: 'content/tags',
+          fields: [
+            {
+              name: 'tags',
+              label: 'Tags',
+              widget: 'list',
+              default: [],
+              field: {
+                name: 'tag',
+                label: 'Tag',
+                widget: 'string',
+              },
+            },
           ],
         },
       ],
