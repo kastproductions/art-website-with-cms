@@ -21,4 +21,10 @@ portfolio_items:
       interior, Vilnius)
   - item: The Sword of Damocles, 2017, classical thin glass technique, 100x70 cm
       (fragment)
+  - item: Twelve stained glass pieces Baltic signs, 2019, (private interiors,
+      Germany, The Netherlands, Belgium, USA), 20x20 cm
+  - item: La Défense, 1998, classical thin stained glass technique, 68x50 cm
+      (private interior, Vilnius)
+  - item: Secrets of the Dukes Oginski Manor, 2019, classical thin stained glass
+      technique, 90x56 cm (process)
 ---
