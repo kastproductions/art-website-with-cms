@@ -7,4 +7,5 @@ portfolio_items:
   - item: 3 - St. Kazimieras Church in Lazdijai (Kučiūnai), Lithuania (interior)
   - item: 4 - St. Kazimieras Church in Lazdijai (Kučiūnai), Lithuania (interior)
   - item: 5 - St. Kazimieras Church in Lazdijai (Kučiūnai), Lithuania (interior)
+  - item: 6 - St. Kazimieras Church in Lazdijai (Kučiūnai), Lithuania (interior)
 ---
