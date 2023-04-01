@@ -5,4 +5,5 @@ portfolio_items:
   - item: Jesus Christ (fragment)
   - item: Church of St. Kazimieras, Lazdijai, Lithuania (interior)
   - item: "1 - Church of St. Kazimieras, Lazdijai, Lithuania "
+  - item: "2 - Church of St. Kazimieras, Lazdijai, Lithuania "
 ---
