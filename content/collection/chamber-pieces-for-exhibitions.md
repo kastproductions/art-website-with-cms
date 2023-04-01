@@ -25,4 +25,6 @@ portfolio_items:
       Germany, The Netherlands, Belgium, USA), 20x20 cm
   - item: La Défense, 1998, classical thin stained glass technique, 68x50 cm
       (private interior, Vilnius)
+  - item: Secrets of the Dukes Oginski Manor, 2019, classical thin stained glass
+      technique, 90x56 cm (process)
 ---
