@@ -27,4 +27,5 @@ portfolio_items:
       (private interior, Vilnius)
   - item: Secrets of the Dukes Oginski Manor, 2019, classical thin stained glass
       technique, 90x56 cm (process)
+  - item: Inclusions, 2000, 100x70 (private interior in Vilnius)
 ---
