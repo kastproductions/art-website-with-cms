@@ -7,7 +7,7 @@ import slugify from 'slugify';
 
 export default function Page({ data }: any) {
   const { seo_title, seo_description, social_media_links, ...rest } = data;
-  console.log({ rest });
+  // console.log({ rest });
 
   return (
     <>

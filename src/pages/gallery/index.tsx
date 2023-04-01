@@ -6,7 +6,6 @@ import fs from 'fs';
 
 export default function Page({ data }: any) {
   const { seo_title, seo_description, social_media_links, ...rest } = data;
-  console.log({ rest });
   return (
     <>
       <Head>
