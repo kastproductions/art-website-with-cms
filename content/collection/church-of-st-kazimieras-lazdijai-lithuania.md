@@ -7,4 +7,5 @@ portfolio_items:
   - item: "1 - Church of St. Kazimieras, Lazdijai, Lithuania "
   - item: "2 - Church of St. Kazimieras, Lazdijai, Lithuania "
   - item: "3 - Church of St. Kazimieras, Lazdijai, Lithuania "
+  - item: "4 - Church of St. Kazimieras, Lazdijai, Lithuania "
 ---
