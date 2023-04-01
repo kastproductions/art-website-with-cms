@@ -1,5 +1,5 @@
 ---
-title: Eucharistic Saviour's Church in Kybartai, Lithuania (process)
+title: Eucharistic Saviour's Church in Kybartai, Lithuania (assembling)
 description: "1"
 images:
   - alt: "1"
