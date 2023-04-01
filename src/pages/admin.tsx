@@ -165,13 +165,16 @@ const config = {
         {
           name: 'tags',
           label: 'Tags',
-          file: 'content/tags',
+          file: 'content/tags.md',
           fields: [
             {
               name: 'tags',
               label: 'Tags',
               widget: 'list',
               default: [],
+              collapsed: false,
+              create: true,
+              delete: true,
               field: {
                 name: 'tag',
                 label: 'Tag',

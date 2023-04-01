@@ -42,14 +42,14 @@ export default function App({ Component, pageProps }: AppProps) {
         {seo_title && <title>{seo_title}</title>}
         {seo_description && <meta name="description" content={seo_description} />}
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="canonical" href={canonicalUrl} />
+        {/* <link rel="canonical" href={canonicalUrl} /> */}
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:locale" content="en_US" />
         {site_name && <meta property="og:site_name" content={site_name} />}
         <meta property="og:type" content={ogType} />
         {seo_description && <meta property="og:description" content={seo_description} />}
         {/* <meta property="og:image" content={ogImgUrl} /> */}
-        <meta property="og:url" content={canonicalUrl} />
+        {/* <meta property="og:url" content={canonicalUrl} /> */}
       </Head>
       <LayoutToUse>
         <Component {...pageProps} />

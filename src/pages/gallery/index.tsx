@@ -6,6 +6,7 @@ import fs from 'fs';
 
 export default function Page({ data }: any) {
   const { seo_title, seo_description, social_media_links, ...rest } = data;
+  console.log({ rest });
   return (
     <>
       <Head>
@@ -36,7 +37,6 @@ export async function getStaticProps() {
     const { data } = matter(file);
     return data;
   });
-
   return {
     props: { data: { ...data, art, social_media_links } },
     revalidate: 1,
