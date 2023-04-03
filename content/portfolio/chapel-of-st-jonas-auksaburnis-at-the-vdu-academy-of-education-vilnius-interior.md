@@ -4,5 +4,5 @@ title: Chapel of St. Jonas Auksaburnis at the VMU Academy of Education, Vilnius,
 description: "1"
 images:
   - image: images/20-2-.jpg
-    alt: "1"
+    alt: "Depicts the symbols of Christianity. "
 ---
