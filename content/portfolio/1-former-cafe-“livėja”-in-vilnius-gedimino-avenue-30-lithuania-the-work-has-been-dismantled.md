@@ -3,6 +3,6 @@ title: 1 - Former cafe “Livėja” in Vilnius, Gedimino Avenue 30, Lithuania (
   work has been dismantled)
 description: "1"
 images:
-  - alt: "1"
+  - alt: Depiction of a blue sky and yellow rye blowing in the wind.
     image: images/vejas_1.jpg
 ---
