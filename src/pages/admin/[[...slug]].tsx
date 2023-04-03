@@ -28,6 +28,7 @@ const config = {
     name: 'git-gateway',
     branch: 'main',
   },
+  local_backend: true,
   media_folder: 'public/images',
   public_folder: 'images',
 
@@ -146,11 +147,11 @@ const config = {
           name: 'tags',
           label: 'Tags',
           widget: 'relation',
-          collection: 'tags', // changed to the name of the tags configuration
+          collection: 'tags',
           file: 'tags',
-          value_field: 'fields.tag', // updated to point to the correct property
-          search_fields: ['fields.tag'],
-          display_fields: ['fields.tag'],
+          value_field: '*', // changed to match the flat list structure
+          search_fields: ['*'],
+          display_fields: ['*'],
           multiple: true,
         },
         // {
