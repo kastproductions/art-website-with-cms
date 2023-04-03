@@ -140,59 +140,65 @@ const config = {
           ],
         },
         {
-          name: 'related_tags',
-          label: 'Related Tags',
+          label: 'Tags',
+          name: 'tags',
           widget: 'relation',
           collection: 'tags',
-          file: 'tags',
-          search_fields: ['tags.*.name'],
-          display_fields: ['tags.*.name'],
-          value_field: 'tags.*.name',
+          search_fields: ['name'],
+          value_field: 'name',
+          display_fields: ['name'],
+          multiple: true,
+          required: false,
         },
-        // {
-        //   name: 'tags',
-        //   label: 'Tags',
-        //   widget: 'list',
-        //   default: [],
-        //   field: {
-        //     name: 'tag',
-        //     label: 'Tag',
-        //     widget: 'relation',
-        //     collection: 'tags',
-        //     search_fields: ['tag'],
-        //     value_field: '{{tag}}',
-        //     display_fields: ['{{tag}}'],
-        //   },
-        // },
       ],
     },
+
     {
       name: 'tags',
       label: 'Tags',
       files: [
         {
-          name: 'tags',
-          label: 'Tags',
           file: 'content/tags.md',
+          label: 'Tags List',
+          name: 'tags',
           fields: [
             {
-              name: 'tags',
               label: 'Tags',
+              name: 'tags',
               widget: 'list',
-              default: [],
-              collapsed: false,
-              create: true,
-              delete: true,
-              field: {
-                name: 'name',
-                label: 'Tag',
-                widget: 'string',
-              },
+              fields: [{ label: 'Name', name: 'name', widget: 'string' }],
             },
           ],
         },
       ],
     },
+    // {
+    //   name: 'tags',
+    //   label: 'Tags',
+    //   files: [
+    //     {
+    //       name: 'tags',
+    //       label: 'Tags',
+    //       file: 'content/tags.md',
+    //       fields: [
+    //         {
+    //           name: 'tags',
+    //           label: 'Tags',
+    //           widget: 'list',
+    //           default: [],
+    //           collapsed: false,
+    //           create: true,
+    //           delete: true,
+    //           field: {
+    //             name: 'name',
+    //             label: 'Tag',
+    //             widget: 'string',
+    //           },
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
   ],
 };
 
