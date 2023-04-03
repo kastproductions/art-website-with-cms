@@ -3,10 +3,6 @@ import { HomePagePreview } from '../../templates/HomePage';
 import { AboutPagePreview } from '../../templates/AboutPage';
 import { ArtPagePreview } from '@/components/templates/pages/art';
 import { CollectionPagePreview } from '@/components/templates/pages/collection';
-// import CMS,{ getAsset, getEntry } from 'netlify-cms';
-
-// import styles from '../styles/@fontsource/cardo/400.module.css';
-// import styles from '../../node_modules/@fontsource/cardo/scss/mixins.scss';
 
 // media_library: {
 //   name: 'cloudinary',
@@ -144,15 +140,14 @@ const config = {
           ],
         },
         {
-          name: 'tags',
-          label: 'Tags',
+          name: 'related_tags',
+          label: 'Related Tags',
           widget: 'relation',
           collection: 'tags',
           file: 'tags',
-          value_field: '*', // changed to match the flat list structure
-          search_fields: ['*'],
-          display_fields: ['*'],
-          multiple: true,
+          search_fields: ['tags.*.name'],
+          display_fields: ['tags.*.name'],
+          value_field: 'tags.*.name',
         },
         // {
         //   name: 'tags',
@@ -178,7 +173,7 @@ const config = {
         {
           name: 'tags',
           label: 'Tags',
-          file: 'content/tags.json',
+          file: 'content/tags.md',
           fields: [
             {
               name: 'tags',
@@ -189,7 +184,7 @@ const config = {
               create: true,
               delete: true,
               field: {
-                name: 'tag',
+                name: 'name',
                 label: 'Tag',
                 widget: 'string',
               },
