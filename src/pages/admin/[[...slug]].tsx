@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { HomePagePreview } from '../templates/HomePage';
-import { AboutPagePreview } from '../templates/AboutPage';
+import { HomePagePreview } from '../../templates/HomePage';
+import { AboutPagePreview } from '../../templates/AboutPage';
 import { ArtPagePreview } from '@/components/templates/pages/art';
 import { CollectionPagePreview } from '@/components/templates/pages/collection';
 // import CMS,{ getAsset, getEntry } from 'netlify-cms';
@@ -145,18 +145,29 @@ const config = {
         {
           name: 'tags',
           label: 'Tags',
-          widget: 'list',
-          default: [],
-          field: {
-            name: 'tag',
-            label: 'Tag',
-            widget: 'relation',
-            collection: 'tags',
-            search_fields: ['tag'],
-            value_field: '{{tag}}',
-            display_fields: ['{{tag}}'],
-          },
+          widget: 'relation',
+          collection: 'tags', // changed to the name of the tags configuration
+          file: 'tags',
+          value_field: 'fields.tag', // updated to point to the correct property
+          search_fields: ['fields.tag'],
+          display_fields: ['fields.tag'],
+          multiple: true,
         },
+        // {
+        //   name: 'tags',
+        //   label: 'Tags',
+        //   widget: 'list',
+        //   default: [],
+        //   field: {
+        //     name: 'tag',
+        //     label: 'Tag',
+        //     widget: 'relation',
+        //     collection: 'tags',
+        //     search_fields: ['tag'],
+        //     value_field: '{{tag}}',
+        //     display_fields: ['{{tag}}'],
+        //   },
+        // },
       ],
     },
     {
@@ -166,7 +177,7 @@ const config = {
         {
           name: 'tags',
           label: 'Tags',
-          file: 'content/tags.md',
+          file: 'content/tags.json',
           fields: [
             {
               name: 'tags',
