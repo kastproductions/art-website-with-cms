@@ -4,5 +4,5 @@ title: Section 2 - Chapel of St. Anselm at the General Jonas Žemaitis Lithuania
 description: "1"
 images:
   - image: images/karo-akademija_3.jpg
-    alt: "1"
+    alt: "Depicts the creation of the world. "
 ---
