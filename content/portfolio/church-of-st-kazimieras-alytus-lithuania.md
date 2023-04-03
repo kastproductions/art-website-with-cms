@@ -3,6 +3,7 @@ title: Church of St. Kazimieras, Alytus, Lithuania
 description: "1"
 images:
   - image: images/alytaus-šv.-kazimiero-bažnyčia_1.jpg
-    alt: "1"
+    alt: “God’s Message” (Ø–100 cm), classical stained glass technique, St.
+      Kazimieras church in Alytus, 1997. Depicts The Holy Spirit and light.
 tags: []
 ---
