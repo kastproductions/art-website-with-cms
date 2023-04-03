@@ -2,7 +2,7 @@
 title: "3 - Church of St. Kazimieras, Lazdijai, Lithuania "
 description: "1"
 images:
-  - alt: "1"
+  - alt: "Depiction of Jesus Christ surrounded by the Twelve Apostles. "
     image: images/kuciunai_3.jpg
 tags: []
 ---
