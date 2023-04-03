@@ -4,5 +4,6 @@ title: City, 1998, classical thin stained glass technique, 70x50 cm (private
 description: "1"
 images:
   - image: images/parodinis-vitrazas_miestas.jpg
-    alt: "1"
+    alt: Depicts the city of Vilnius illuminated by a full moon. The full moon is
+      reflected in the water.
 ---
