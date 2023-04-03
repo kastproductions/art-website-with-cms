@@ -4,5 +4,5 @@ title: La Défense, 1998, classical thin stained glass technique, 68x50 cm
 description: "1"
 images:
   - image: images/defense_vitrazas.jpg
-    alt: "1"
+    alt: Inspired by the La Défense district of Paris.
 ---
