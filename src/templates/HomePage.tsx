@@ -37,7 +37,9 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
           <Box>
             <Container as="section" maxW="8xl" w="full" py={28}>
               <Stack spacing={[20, 20, 28]}>
-                {collections?.map(({ title, items }) => {
+                {collections?.map(({ title, items = [] }) => {
+                  const truncatedItems = items.slice(0, 4);
+                  const viewMore = items.length > 4;
                   return (
                     <Stack key={title}>
                       <Link
@@ -51,11 +53,28 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
                           {title}
                         </Heading>
                       </Link>
-                      <Box sx={{ columnCount: [2, 3, 4], columnGap: [4, 4, 8] }} pt={[6, 6, 10]}>
-                        {items?.map((props) => (
-                          <GalleryItem key={props.name} {...props} />
-                        ))}
-                      </Box>
+                      <Stack spacing={[6, 6, 10]}>
+                        <Box sx={{ columnCount: [2, 3, 4], columnGap: [4, 4, 8] }} pt={[6, 6, 10]}>
+                          {truncatedItems.map((props) => (
+                            <GalleryItem key={props.name} {...props} />
+                          ))}
+                        </Box>
+                        {viewMore && (
+                          <Link
+                            textAlign="center"
+                            fontFamily="Cardo"
+                            textDecor="underline"
+                            fontSize={['lg', 'lg', '2xl']}
+                            as={NextLink}
+                            href={`/collection/${slugify(title, {
+                              strict: true,
+                              lower: true,
+                            })}`}
+                          >
+                            View more
+                          </Link>
+                        )}
+                      </Stack>
                     </Stack>
                   );
                 })}
