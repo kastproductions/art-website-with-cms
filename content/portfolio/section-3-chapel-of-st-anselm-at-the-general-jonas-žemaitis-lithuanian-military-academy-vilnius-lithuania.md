@@ -3,6 +3,6 @@ title: Section 3 - Chapel of St. Anselm at the General Jonas Žemaitis Lithuania
   Military Academy, Vilnius, Lithuania
 description: "1"
 images:
-  - alt: "1"
+  - alt: "Depicts the creation of the world. "
     image: images/karo-akademija_4.jpg
 ---
