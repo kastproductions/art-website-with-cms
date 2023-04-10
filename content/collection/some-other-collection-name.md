@@ -6,4 +6,5 @@ portfolio_items:
   - item: Evening
   - item: Night (private collection)
   - item: The Light
+  - item: Landscape near Triora
 ---
