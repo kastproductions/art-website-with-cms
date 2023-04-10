@@ -1,6 +1,6 @@
 ---
 title: Paintings
-description: Some Other Description
+description: "1"
 portfolio_items:
-  - item: Painting 1
+  - item: "Swirl "
 ---
