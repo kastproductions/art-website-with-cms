@@ -5,4 +5,5 @@ portfolio_items:
   - item: "Swirl "
   - item: Evening
   - item: Night (private collection)
+  - item: The Light
 ---
