@@ -7,4 +7,5 @@ portfolio_items:
   - item: Night (private collection)
   - item: The Light
   - item: Landscape near Triora
+  - item: Cherries (private collection)
 ---
