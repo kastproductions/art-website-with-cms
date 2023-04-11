@@ -15,4 +15,5 @@ portfolio_items:
   - item: From the Hill of the Three Crosses
   - item: Sunset / I (private collection)
   - item: Lilies / I
+  - item: Flowering in Space / I (private collection)
 ---
