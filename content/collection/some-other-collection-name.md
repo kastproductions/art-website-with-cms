@@ -9,4 +9,5 @@ portfolio_items:
   - item: Landscape near Triora
   - item: Cherries (private collection)
   - item: View through the window
+  - item: "Winter motif / I "
 ---
