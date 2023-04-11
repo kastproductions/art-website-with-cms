@@ -13,4 +13,5 @@ portfolio_items:
   - item: Flowering in Space / III
   - item: "Dream / I "
   - item: From the Hill of the Three Crosses
+  - item: Sunset / I (private collection)
 ---
