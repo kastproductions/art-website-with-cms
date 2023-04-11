@@ -8,4 +8,5 @@ portfolio_items:
   - item: The Light
   - item: Landscape near Triora
   - item: Cherries (private collection)
+  - item: View through the window
 ---
