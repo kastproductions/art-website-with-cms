@@ -12,4 +12,5 @@ portfolio_items:
   - item: "Winter motif / I "
   - item: Flowering in Space / III
   - item: "Dream / I "
+  - item: From the Hill of the Three Crosses
 ---
