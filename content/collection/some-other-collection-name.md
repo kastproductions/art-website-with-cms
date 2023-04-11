@@ -10,4 +10,5 @@ portfolio_items:
   - item: Cherries (private collection)
   - item: View through the window
   - item: "Winter motif / I "
+  - item: Flowering in Space / III
 ---
