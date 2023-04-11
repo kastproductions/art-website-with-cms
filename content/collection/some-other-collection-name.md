@@ -11,4 +11,5 @@ portfolio_items:
   - item: View through the window
   - item: "Winter motif / I "
   - item: Flowering in Space / III
+  - item: "Dream / I "
 ---
