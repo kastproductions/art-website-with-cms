@@ -16,4 +16,5 @@ portfolio_items:
   - item: Sunset / I (private collection)
   - item: Lilies / I
   - item: Flowering in Space / I (private collection)
+  - item: "Figures (inspired by photography of Brassaï) "
 ---
