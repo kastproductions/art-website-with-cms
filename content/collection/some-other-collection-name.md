@@ -17,4 +17,5 @@ portfolio_items:
   - item: Lilies / I
   - item: Flowering in Space / I (private collection)
   - item: "Figures (inspired by photography of Brassaï) "
+  - item: Poppies / I
 ---
