@@ -21,4 +21,5 @@ portfolio_items:
   - item: Morning (private collection)
   - item: "Flowering in Space / II "
   - item: Blooming / I (private collection)
+  - item: Flowering in Space / IV (private collection)
 ---
