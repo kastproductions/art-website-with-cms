@@ -29,4 +29,5 @@ portfolio_items:
   - item: Cherries / I (private collection)
   - item: Blooming / IV (private collection)
   - item: Blooming / II (private collection)
+  - item: Winter motif / II
 ---
