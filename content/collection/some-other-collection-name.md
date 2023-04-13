@@ -30,4 +30,5 @@ portfolio_items:
   - item: Blooming / IV (private collection)
   - item: Blooming / II (private collection)
   - item: Winter motif / II
+  - item: Zverynas Bridge
 ---
