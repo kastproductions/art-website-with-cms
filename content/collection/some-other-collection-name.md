@@ -25,4 +25,5 @@ portfolio_items:
   - item: Greenery (private collection)
   - item: Blooming / II (private collection)
   - item: Conversation
+  - item: Blooming / III (private collection)
 ---
