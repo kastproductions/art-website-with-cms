@@ -24,4 +24,5 @@ portfolio_items:
   - item: Flowering in Space / IV (private collection)
   - item: Greenery (private collection)
   - item: Blooming / II (private collection)
+  - item: Conversation
 ---
