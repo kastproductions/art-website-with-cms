@@ -32,4 +32,5 @@ portfolio_items:
   - item: Winter motif / II
   - item: Zverynas Bridge
   - item: Winter motif / III (private collection)
+  - item: "Landscape / I (private collection) "
 ---
