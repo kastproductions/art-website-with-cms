@@ -7,7 +7,6 @@ portfolio_items:
   - item: Night (private collection)
   - item: The Light
   - item: Landscape near Triora
-  - item: Cherries (private collection)
   - item: View through the window
   - item: "Winter motif / I "
   - item: Flowering in Space / III
@@ -27,4 +26,5 @@ portfolio_items:
   - item: Conversation
   - item: Blooming / III (private collection)
   - item: Cherries / II (private collection)
+  - item: Cherries / I (private collection)
 ---
