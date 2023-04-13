@@ -26,4 +26,5 @@ portfolio_items:
   - item: Blooming / II (private collection)
   - item: Conversation
   - item: Blooming / III (private collection)
+  - item: Cherries / II (private collection)
 ---
