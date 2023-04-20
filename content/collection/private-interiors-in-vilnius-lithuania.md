@@ -7,5 +7,5 @@ portfolio_items:
   - item: 3 - Private interiors in Vilnius, Lithuania (exterior)
   - item: 3 - Private interiors in Vilnius, Lithuania (in process 1)
   - item: 3 - Private interiors in Vilnius, Lithuania (in process 3)
-  - item: 3 - Private interiors in Vilnius, Lithuania (in process 2)
+  - item: 4 - Private interiors in Vilnius, Lithuania
 ---
