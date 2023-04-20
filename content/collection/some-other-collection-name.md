@@ -34,4 +34,5 @@ portfolio_items:
   - item: Winter motif / III (private collection)
   - item: "Landscape / I (private collection) "
   - item: "Landscape / II (private collection) "
+  - item: Once in Paris...
 ---
