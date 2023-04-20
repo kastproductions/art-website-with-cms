@@ -43,4 +43,5 @@ portfolio_items:
       Germany, The Netherlands, Belgium, USA), 20x20 cm
   - item: Chamber pieces for exhibitions (in process)
   - item: 1 - Birds
+  - item: 2 - Birds
 ---
