@@ -23,8 +23,6 @@ portfolio_items:
       (private interior, Vilnius)
   - item: Secrets of the Dukes Oginski Manor, 2019, classical thin stained glass
       technique, 90x56 cm (process)
-  - item: 4 - Twelve stained glass pieces Baltic signs, 2019, (private interiors,
-      Germany, The Netherlands, Belgium, USA), 20x20 cm
   - item: 5 - Twelve stained glass pieces Baltic signs, 2019, (private interiors,
       Germany, The Netherlands, Belgium, USA), 20x20 cm
   - item: 2 - Twelve stained glass pieces Baltic signs, 2019, (private interiors,
