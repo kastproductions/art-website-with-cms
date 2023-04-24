@@ -7,4 +7,5 @@ portfolio_items:
   - item: Inclusions
   - item: Inclusions (fragment)
   - item: 1 - Twelve piece collection of Baltic signs
+  - item: 2 - Twelve piece collection of Baltic signs
 ---
