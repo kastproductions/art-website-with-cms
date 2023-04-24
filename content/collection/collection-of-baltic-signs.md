@@ -4,4 +4,5 @@ description: Classical stained glass technique
 portfolio_items:
   - item: Roots
   - item: Thunder
+  - item: Inclusions
 ---
