@@ -5,4 +5,5 @@ portfolio_items:
   - item: Roots
   - item: Thunder
   - item: Inclusions
+  - item: Inclusions (fragment)
 ---
