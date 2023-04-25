@@ -9,4 +9,5 @@ portfolio_items:
   - item: Water lily (private interior, Germany)
   - item: Game
   - item: Birds - 2 (private interior, Germany)
+  - item: "Birds - 2 (in process; private interior, Germany) "
 ---
