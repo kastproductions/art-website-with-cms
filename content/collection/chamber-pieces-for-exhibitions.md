@@ -12,4 +12,5 @@ portfolio_items:
   - item: "Birds - 2 (in process; private interior, Germany) "
   - item: Vision
   - item: Secrets of the Dukes Oginski Manor (at the exhibition)
+  - item: La Défense (private interior, Vilnius)
 ---
