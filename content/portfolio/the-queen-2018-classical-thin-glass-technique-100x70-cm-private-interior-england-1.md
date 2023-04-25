@@ -1,7 +1,6 @@
 ---
-title: The Queen, 2018, classical thin glass technique, 100x70 cm (private
-  interior, England)
-description: "1"
+title: "The Queen (with enlightenment; private interior, England) "
+description: 2018, classical stained glass technique, 100x70 cm
 images:
   - alt: Depicts Barbora Radvilaite (1520/1523 - 1551) - a noblewoman of the Grand
       Duchy of Lithuania, Queen of Poland and Grand Duchess Consort of Lithuania
