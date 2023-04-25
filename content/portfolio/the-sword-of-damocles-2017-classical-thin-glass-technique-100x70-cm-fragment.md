@@ -1,7 +1,6 @@
 ---
-title: The Sword of Damocles, 2017, classical thin glass technique, 100x70 cm
-  (fragment)
-description: "1"
+title: The Sword of Damocles (fragment - 1)
+description: "2017, classical stained glass technique, 100x70 cm "
 images:
   - alt: Depiction of the myth of the Sword of Damocles. The sword of Damocles is a
       saying that means a person is constantly in danger. According to Greek
