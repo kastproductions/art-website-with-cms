@@ -1,6 +1,6 @@
 ---
-title: The Queen, 2018, classical thin glass technique, 100x70 cm (at the exhibition)
-description: "1"
+title: "The Queen (at the exhibition - 2) "
+description: 2018, classical stained glass technique, 100x70 cm
 images:
   - image: images/kulturos-naktis_2018_valdove.jpg
     alt: Depicts Barbora Radvilaite (1520/1523 - 1551) - a noblewoman of the Grand
