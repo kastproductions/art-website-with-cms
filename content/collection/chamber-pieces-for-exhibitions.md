@@ -8,4 +8,5 @@ portfolio_items:
   - item: Secrets of the Dukes Oginski Manor (in process - 1)
   - item: Water lily (private interior, Germany)
   - item: Game
+  - item: Birds - 2 (private interior, Germany)
 ---
