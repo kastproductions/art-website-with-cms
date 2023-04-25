@@ -1,5 +1,5 @@
 ---
-title: The Queen (at the exhibition - 1)
+title: The Queen (at the exhibition in Vilnius, Lithuania - 1)
 description: 2018, classical stained glass technique, 100x70 cm
 images:
   - image: images/parodinis-vitražas_-valdove.jpeg
