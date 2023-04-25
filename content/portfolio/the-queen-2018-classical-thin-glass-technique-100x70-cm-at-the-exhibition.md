@@ -1,5 +1,5 @@
 ---
-title: "The Queen (at the exhibition - 2) "
+title: "The Queen (at the exhibition in Vilnius, Lithuania - 2) "
 description: 2018, classical stained glass technique, 100x70 cm
 images:
   - image: images/kulturos-naktis_2018_valdove.jpg
