@@ -15,4 +15,5 @@ portfolio_items:
   - item: La Défense (private interior, Vilnius)
   - item: Night
   - item: City
+  - item: "Birds - 1 (private interior, Germany) "
 ---
