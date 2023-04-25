@@ -1,6 +1,6 @@
 ---
-title: "Vision, 2008, classical thin glass technique, 100x70 cm "
-description: "1"
+title: Vision
+description: "2008, classical stained glass technique, 100x70 cm "
 images:
   - image: images/vizija.jpg
     alt: "1"
