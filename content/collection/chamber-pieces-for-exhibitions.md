@@ -5,4 +5,5 @@ portfolio_items:
   - item: The Sword of Damocles
   - item: The Sword of Damocles (fragment - 1)
   - item: Secrets of the Dukes Oginski Manor (fragment - 1)
+  - item: Secrets of the Dukes Oginski Manor (in process - 1)
 ---
