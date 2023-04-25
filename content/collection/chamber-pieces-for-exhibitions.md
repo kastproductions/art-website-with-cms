@@ -13,4 +13,5 @@ portfolio_items:
   - item: Vision
   - item: Secrets of the Dukes Oginski Manor (at the exhibition)
   - item: La Défense (private interior, Vilnius)
+  - item: Night
 ---
