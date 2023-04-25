@@ -14,4 +14,5 @@ portfolio_items:
   - item: Secrets of the Dukes Oginski Manor (at the exhibition)
   - item: La Défense (private interior, Vilnius)
   - item: Night
+  - item: City
 ---
