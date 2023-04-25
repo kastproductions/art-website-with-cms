@@ -16,4 +16,5 @@ portfolio_items:
   - item: "Birds - 1 (private interior, Germany) "
   - item: Secrets of the Dukes Oginski Manor (fragment-1)
   - item: City (private interior, Vilnius, Lithuania)
+  - item: "The Queen (at the exhibition in Vilnius, Lithuania - 2) "
 ---
