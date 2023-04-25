@@ -1,6 +1,6 @@
 ---
-title: Secrets of the Dukes Oginski Manor
-description: 2019, classical stained glass technique, 90x56 cm (at the exhibition)
+title: Secrets of the Dukes Oginski Manor (at the exhibition)
+description: "2019, classical stained glass technique, 90x56 cm "
 images:
   - alt: Depicts the palace of M. Oginskis manor in Plunge, Lithuania, the signature
       of the composer M. K. Oginskis and the notes of Oginskis polonaise.
