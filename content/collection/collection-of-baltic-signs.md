@@ -12,4 +12,5 @@ portfolio_items:
   - item: "4 - Twelve piece collection of Baltic signs "
   - item: "5 - Twelve piece collection of Baltic signs "
   - item: 6 - Twelve piece collection of Baltic signs
+  - item: 7 - Twelve piece collection of Baltic signs
 ---
