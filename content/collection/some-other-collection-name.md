@@ -12,7 +12,7 @@ portfolio_items:
   - item: Flowering in Space / III
   - item: "Dream / I "
   - item: From the Hill of the Three Crosses
-  - item: Sunset / I (private collection)
+  - item: "Sunset / II "
   - item: Lilies / I
   - item: Flowering in Space / I (private collection)
   - item: "Figures (inspired by photography of Brassaï) "
