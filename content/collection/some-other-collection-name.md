@@ -40,5 +40,5 @@ portfolio_items:
   - item: "Lake (private collection, England) "
   - item: "Sunset / I (private collection, England) "
   - item: "Pathway (private collection, England) "
-  - item: "The Sea (private collection, England) cardboard, oil, 23x27, 2021     "
+  - item: "The Sea (private collection, England) "
 ---
