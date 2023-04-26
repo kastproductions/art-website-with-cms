@@ -12,7 +12,6 @@ portfolio_items:
   - item: Secrets of the Dukes Oginski Manor (at the exhibition)
   - item: La Défense (private interior, Vilnius)
   - item: Night
-  - item: City
   - item: "Birds - 1 (private interior, Germany) "
   - item: Secrets of the Dukes Oginski Manor (fragment-1)
   - item: City (private interior, Vilnius, Lithuania)
