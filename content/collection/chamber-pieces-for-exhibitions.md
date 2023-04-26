@@ -21,4 +21,5 @@ portfolio_items:
   - item: The Queen (in process)
   - item: Secrets of the Dukes Oginski Manor (in process - 1)
   - item: "Dear Brother of Freedom (part of the artwork) "
+  - item: Vision (fragment)
 ---
