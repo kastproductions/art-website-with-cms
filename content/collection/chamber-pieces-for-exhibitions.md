@@ -17,4 +17,6 @@ portfolio_items:
   - item: Secrets of the Dukes Oginski Manor (fragment-1)
   - item: City (private interior, Vilnius, Lithuania)
   - item: "The Queen (at the exhibition in Vilnius, Lithuania - 2) "
+  - item: Dear Brother of Freedom (the artwork; part of the piece made of molded
+      glass; together with Saule Urbanavičiute)
 ---
