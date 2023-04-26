@@ -1,5 +1,5 @@
 ---
-title: "The Sea (private collection, England) cardboard, oil, 23x27, 2021     "
+title: "The Sea (private collection, England) "
 description: "cardboard, oil, 23x27, 2021     "
 images:
   - alt: "1"
