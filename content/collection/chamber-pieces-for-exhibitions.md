@@ -19,4 +19,5 @@ portfolio_items:
   - item: Dear Brother of Freedom (the artwork; part of the piece made of molded
       glass; together with Saule Urbanavičiute)
   - item: The Queen (in process)
+  - item: Secrets of the Dukes Oginski Manor (in process - 1)
 ---
