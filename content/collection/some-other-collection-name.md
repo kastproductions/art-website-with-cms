@@ -42,4 +42,5 @@ portfolio_items:
   - item: "The Sea (private collection, England) "
   - item: Pathway (private collection, England)
   - item: Memories / I
+  - item: "Poppies / II   "
 ---
