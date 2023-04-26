@@ -45,4 +45,5 @@ portfolio_items:
   - item: Poppies / II (private collection)
   - item: "Nostalgia "
   - item: "Lilies / II (private collection) "
+  - item: "Cherries / I (fragment; private collection) "
 ---
