@@ -18,4 +18,5 @@ portfolio_items:
   - item: "The Queen (at the exhibition in Vilnius, Lithuania - 2) "
   - item: Dear Brother of Freedom (the artwork; part of the piece made of molded
       glass; together with Saule Urbanavičiute)
+  - item: The Queen (in process)
 ---
