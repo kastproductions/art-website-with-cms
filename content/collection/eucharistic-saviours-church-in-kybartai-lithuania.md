@@ -1,6 +1,6 @@
 ---
 title: "Eucharistic Saviour's Church in Kybartai, Lithuania "
-description: "1"
+description: Classical stained glass technique
 portfolio_items:
   - item: 1 - Eucharistic Saviour's Church in Kybartai, Lithuania
   - item: 2 - Eucharistic Saviour's Church in Kybartai, Lithuania
