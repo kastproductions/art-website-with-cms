@@ -1,6 +1,6 @@
 ---
 title: Paintings
-description: "1"
+description: P﻿ainting
 portfolio_items:
   - item: "Swirl "
   - item: Evening
