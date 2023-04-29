@@ -46,4 +46,5 @@ portfolio_items:
   - item: "Nostalgia "
   - item: "Lilies / II (private collection) "
   - item: "Cherries / I (fragment; private collection) "
+  - item: Ophelia
 ---
