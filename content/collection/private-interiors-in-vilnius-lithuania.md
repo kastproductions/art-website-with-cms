@@ -9,6 +9,7 @@ portfolio_items:
   - item: 3 - Private interiors in Vilnius, Lithuania (in process 3)
   - item: The play of colors (private interior in Vilnius, Lithuania; the door;
       section -1)
-  - item: 4 - Private interiors in Vilnius, Lithuania (section 1)
+  - item: The play of colors (private interior in Vilnius, Lithuania; the door;
+      section -2)
   - item: 4 - Private interiors in Vilnius, Lithuania (section 2)
 ---
