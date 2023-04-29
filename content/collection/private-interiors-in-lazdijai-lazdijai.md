@@ -1,6 +1,6 @@
 ---
 title: Private interiors in Lazdijai, Lithuania
-description: "1"
+description: Classical stained glass technique
 portfolio_items:
   - item: 1 - Private interiors in Lazdijai, Lithuania
   - item: 2 - Private interiors in Lazdijai, Lithuania
