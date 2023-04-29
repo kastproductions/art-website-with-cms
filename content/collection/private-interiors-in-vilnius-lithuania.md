@@ -7,7 +7,8 @@ portfolio_items:
   - item: "Tree of Life (private interior in Vilnius, Lithuania; exterior) "
   - item: "Tree of Life (private interior in Vilnius, Lithuania; in process-1) "
   - item: 3 - Private interiors in Vilnius, Lithuania (in process 3)
-  - item: 4 - Private interiors in Vilnius, Lithuania
+  - item: The play of colors (private interior in Vilnius, Lithuania; the door;
+      section -1)
   - item: 4 - Private interiors in Vilnius, Lithuania (section 1)
   - item: 4 - Private interiors in Vilnius, Lithuania (section 2)
 ---
