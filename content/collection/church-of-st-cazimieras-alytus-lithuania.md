@@ -1,7 +1,6 @@
 ---
 title: Church of St. Kazimieras, Alytus, Lithuania
-description: "1"
+description: Classical stained glass technique
 portfolio_items:
-  - item: "Main - Church of St. Kazimieras, Alytus, Lithuania "
   - item: Church of St. Kazimieras, Alytus, Lithuania
 ---
