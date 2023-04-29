@@ -12,4 +12,5 @@ portfolio_items:
   - item: The play of colors (private interior in Vilnius, Lithuania; the door;
       section -2)
   - item: "The play of colors (private interior in Vilnius, Lithuania; the door) "
+  - item: Tree of Life (private interior in Vilnius, Lithuania; in process-3)
 ---
