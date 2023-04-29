@@ -1,7 +1,7 @@
 ---
 title: Chapel of St. Jonas Auksaburnis at the VMU Academy of Education, Vilnius,
   Lithuania
-description: "1"
+description: Classical stained glass technique
 portfolio_items:
   - item: 1 - Chapel of St. Jonas Auksaburnis at the VMU Academy of Education,
       Vilnius, Lithuania
