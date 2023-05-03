@@ -51,4 +51,5 @@ portfolio_items:
   - item: In dreams / I
   - item: In dreams / II
   - item: In dreams / III (private collection)
+  - item: "City on Fire (private collection) "
 ---
