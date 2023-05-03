@@ -1,5 +1,5 @@
 ---
-title: "The Queen (with enlightenment; private interior, England) "
+title: "The Queen (with lighting; private interior, England) "
 description: 2018, classical stained glass technique, 100x70 cm
 images:
   - alt: Depicts Barbora Radvilaite (1520/1523 - 1551) - a noblewoman of the Grand
