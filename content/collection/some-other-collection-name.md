@@ -35,7 +35,7 @@ portfolio_items:
   - item: "Landscape / I (private collection) "
   - item: "Landscape / II (private collection) "
   - item: Once in Paris...
-  - item: In dreams...
+  - item: "Water lillies / II (private collection) "
   - item: Flower blossoms (private collections)
   - item: "Lake (private collection, England) "
   - item: "Sunset / I (private collection, England) "
