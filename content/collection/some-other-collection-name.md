@@ -49,4 +49,5 @@ portfolio_items:
   - item: Ophelia
   - item: Ophelia (fragment)
   - item: In dreams / I
+  - item: In dreams / II
 ---
