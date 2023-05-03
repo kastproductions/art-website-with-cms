@@ -13,7 +13,7 @@ portfolio_items:
   - item: "Dream / I "
   - item: From the Hill of the Three Crosses
   - item: "Sunset / II "
-  - item: Lilies / I
+  - item: Water lillies / I
   - item: Flowering in Space / I (private collection)
   - item: "Figures (inspired by photography of Brassaï) "
   - item: Poppies / I
