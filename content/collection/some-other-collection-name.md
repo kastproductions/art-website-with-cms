@@ -44,7 +44,7 @@ portfolio_items:
   - item: Memories / I
   - item: Poppies / II (private collection)
   - item: "Nostalgia "
-  - item: "Lilies / II (private collection) "
+  - item: "Water lillies / III "
   - item: "Cherries / I (fragment; private collection) "
   - item: Ophelia
   - item: Ophelia (fragment)
