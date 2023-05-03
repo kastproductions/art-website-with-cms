@@ -1,5 +1,5 @@
 ---
-title: Lilies / I
+title: Water lillies / I
 description: "50x100, canvas, oil, 2020  "
 images:
   - alt: "1"
