@@ -52,4 +52,5 @@ portfolio_items:
   - item: In dreams / II
   - item: In dreams / III (private collection)
   - item: "City on Fire (private collection) "
+  - item: A woman's gaze
 ---
