@@ -53,4 +53,5 @@ portfolio_items:
   - item: In dreams / III (private collection)
   - item: "City on Fire (private collection) "
   - item: A woman's gaze
+  - item: "New shoes (inspired by a 1939 French advertising photo) "
 ---
