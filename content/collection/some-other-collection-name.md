@@ -57,4 +57,5 @@ portfolio_items:
   - item: "Burning crosses "
   - item: "Sunset / II "
   - item: Memories / I
+  - item: On the road
 ---
