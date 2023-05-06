@@ -56,4 +56,5 @@ portfolio_items:
   - item: "Still life "
   - item: "Burning crosses "
   - item: "Sunset / II "
+  - item: Memories / I
 ---
