@@ -10,9 +10,8 @@ portfolio_items:
   - item: View through the window
   - item: "Winter motif / I "
   - item: Flowering in Space / III
-  - item: "Dream / I "
+  - item: In dreams / IV
   - item: From the Hill of the Three Crosses
-  - item: "Sunset / II "
   - item: Water lillies / I
   - item: Flowering in Space / I (private collection)
   - item: "Figures (inspired by photography of Brassaï) "
