@@ -59,4 +59,5 @@ portfolio_items:
   - item: On the road
   - item: "Amaryllis (private collection) "
   - item: "Sunset / II "
+  - item: "In the mountains / I  "
 ---
