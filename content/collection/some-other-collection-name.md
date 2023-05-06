@@ -55,7 +55,6 @@ portfolio_items:
   - item: "New shoes (inspired by a 1939 French advertising photo) "
   - item: "Still life "
   - item: "Burning crosses "
-  - item: "Sunset / II "
   - item: Memories / I
   - item: On the road
   - item: "Amaryllis (private collection) "
