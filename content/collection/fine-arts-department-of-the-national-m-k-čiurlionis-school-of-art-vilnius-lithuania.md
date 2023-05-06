@@ -9,4 +9,6 @@ portfolio_items:
       Vilnius, Lithuania (interior)
   - item: Fragment 2 - Fine Arts Department of the National M. K. Čiurlionis School
       of Art, Vilnius, Lithuania
+  - item: Fine Arts Department of the National M. K. Čiurlionis School of Art,
+      Vilnius, Lithuania (1986)
 ---
