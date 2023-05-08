@@ -13,4 +13,6 @@ portfolio_items:
       the work has been dismantled)
   - item: Former cafe “Livėja” in Vilnius, Gedimino Avenue 30, Lithuania (section 5;
       the work has been dismantled)
+  - item: Former cafe “Livėja” in Vilnius, Gedimino Avenue 30, Lithuania (the work
+      has been dismantled)
 ---
