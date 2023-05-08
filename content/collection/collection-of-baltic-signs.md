@@ -6,7 +6,7 @@ portfolio_items:
   - item: Thunder
   - item: Inclusions
   - item: Inclusions (fragment)
-  - item: 1 - Twelve piece collection of Baltic signs
+  - item: Thunder (in process)
   - item: 2 - Twelve piece collection of Baltic signs
   - item: "3 - Twelve piece collection of Baltic signs "
   - item: "4 - Twelve piece collection of Baltic signs "
