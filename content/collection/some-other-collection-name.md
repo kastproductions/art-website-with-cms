@@ -62,4 +62,5 @@ portfolio_items:
   - item: "In the mountains / I  "
   - item: Water lillies / I (fragment)
   - item: "Blooming / V (private collection) "
+  - item: Flowering in Space / V (private collection)
 ---
