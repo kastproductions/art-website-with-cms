@@ -63,4 +63,5 @@ portfolio_items:
   - item: Water lillies / I (fragment)
   - item: "Blooming / V (private collection) "
   - item: Flowering in Space / V (private collection)
+  - item: Winter motif / Birds
 ---
