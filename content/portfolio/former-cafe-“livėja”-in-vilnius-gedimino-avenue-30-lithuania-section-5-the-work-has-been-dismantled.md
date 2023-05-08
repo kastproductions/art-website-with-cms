@@ -7,5 +7,5 @@ description: Five part stained glass piece “Warm Breeze”, 8 m² (one part–
   been dismantled in 1995), 1989
 images:
   - image: images/vejas_5.jpg
-    alt: "1"
+    alt: Depiction of a blue sky and yellow rye blowing in the wind.
 ---
