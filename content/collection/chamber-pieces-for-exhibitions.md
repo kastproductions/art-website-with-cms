@@ -27,4 +27,6 @@ portfolio_items:
   - item: The Sword of Damocles (at the exhibition in Vilnius, Lithuania)
   - item: The Queen (fragment -1)
   - item: Dear Brother of Freedom (part of the artwork in process)
+  - item: Dear Brother of Freedom - 1 (the artwork; together with Saule
+      Urbanavičiute; part of the piece made of molded glass)
 ---
