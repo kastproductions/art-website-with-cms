@@ -61,4 +61,5 @@ portfolio_items:
   - item: "Sunset / II "
   - item: "In the mountains / I  "
   - item: Water lillies / I (fragment)
+  - item: "Blooming / V (private collection) "
 ---
