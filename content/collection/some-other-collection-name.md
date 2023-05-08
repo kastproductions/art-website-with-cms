@@ -60,4 +60,5 @@ portfolio_items:
   - item: "Amaryllis (private collection) "
   - item: "Sunset / II "
   - item: "In the mountains / I  "
+  - item: Water lillies / I (fragment)
 ---
