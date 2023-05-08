@@ -7,5 +7,5 @@ description: Six part stained glass piece “Expression on the subject of the
   Military Academy, Vilnius, 2001
 images:
   - image: images/karo-akademija_interjeras_2022.jpg
-    alt: "1"
+    alt: "Depicts the creation of the world. "
 ---
