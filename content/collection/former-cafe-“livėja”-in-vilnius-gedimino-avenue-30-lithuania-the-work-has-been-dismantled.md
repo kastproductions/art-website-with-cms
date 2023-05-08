@@ -5,8 +5,8 @@ description: Classical stained glass technique
 portfolio_items:
   - item: Former cafe “Livėja” in Vilnius, Gedimino Avenue 30, Lithuania (section 1;
       the work has been dismantled)
-  - item: 2 - Former cafe “Livėja” in Vilnius, Gedimino Avenue 30, Lithuania (the
-      work has been dismantled)
+  - item: Former cafe “Livėja” in Vilnius, Gedimino Avenue 30, Lithuania (section 2;
+      the work has been dismantled)
   - item: 3 - Former cafe “Livėja” in Vilnius, Gedimino Avenue 30, Lithuania (the
       work has been dismantled)
   - item: Full - Former cafe “Livėja” in Vilnius, Gedimino Avenue 30, Lithuania (the
