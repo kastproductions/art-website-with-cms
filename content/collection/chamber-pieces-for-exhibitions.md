@@ -26,4 +26,5 @@ portfolio_items:
   - item: The Sword of Damocles (fragment - 2)
   - item: The Sword of Damocles (at the exhibition in Vilnius, Lithuania)
   - item: The Queen (fragment -1)
+  - item: Dear Brother of Freedom (part of the artwork in process)
 ---
