@@ -5,8 +5,6 @@ description: “Vilnius Art School”, 3,6 m² (130x280 cm), classical stained g
   technique, Fine Arts Department of the National M. K. Čiurlionis School of
   Art, Vilnius, 1986
 images:
-  - image: images/ciurlionio_7.jpg
-    alt: "1"
   - alt: "1"
     image: images/ciurlionio_8.jpg
 ---
