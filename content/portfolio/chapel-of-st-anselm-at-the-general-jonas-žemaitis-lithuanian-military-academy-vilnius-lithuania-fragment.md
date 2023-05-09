@@ -1,6 +1,6 @@
 ---
 title: Chapel of St. Anselm at the General Jonas Žemaitis Lithuanian Military
-  Academy, Vilnius, Lithuania (fragment)
+  Academy, Vilnius, Lithuania (fragment - 1)
 description: Six part stained glass piece “Expression on the subject of the
   Creation of the World”, 9 m² (one part – 58x250 cm), classical stained glass
   technique, Chapel of St. Anselm at the General Jonas Žemaitis Lithuanian
