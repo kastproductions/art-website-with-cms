@@ -4,7 +4,7 @@ title: Chapel of St. Anselm at the General Jonas Žemaitis Lithuanian Military
 description: Classical stained glass technique
 portfolio_items:
   - item: Chapel of St. Anselm at the General Jonas Žemaitis Lithuanian Military
-      Academy, Vilnius, Lithuania (fragment)
+      Academy, Vilnius, Lithuania (fragment - 1)
   - item: Chapel of St. Anselm at the General Jonas Žemaitis Lithuanian Military
       Academy, Vilnius, Lithuania (interior - 2)
   - item: Chapel of St. Anselm at the General Jonas Žemaitis Lithuanian Military
