@@ -64,4 +64,5 @@ portfolio_items:
   - item: "Blooming / V (private collection) "
   - item: Flowering in Space / V (private collection)
   - item: Winter motif / Birds
+  - item: "Fight for Freedom / I "
 ---
