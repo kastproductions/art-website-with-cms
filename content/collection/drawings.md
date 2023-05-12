@@ -6,4 +6,5 @@ portfolio_items:
   - item: "Winter lily "
   - item: Fountain (private collection)
   - item: "La Défense "
+  - item: In the wind
 ---
