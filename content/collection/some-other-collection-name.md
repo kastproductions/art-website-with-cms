@@ -67,4 +67,5 @@ portfolio_items:
   - item: "Fight for Freedom / I "
   - item: Fight for Freedom / II
   - item: "Carpet "
+  - item: "The two of us "
 ---
