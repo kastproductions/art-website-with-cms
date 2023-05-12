@@ -66,4 +66,5 @@ portfolio_items:
   - item: Winter motif / Birds
   - item: "Fight for Freedom / I "
   - item: Fight for Freedom / II
+  - item: "Carpet "
 ---
