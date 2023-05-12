@@ -1,6 +1,6 @@
 ---
-title: Paintings
-description: P﻿ainting
+title: "Paintings "
+description: "Various original techniques: oil, acrylic, collage"
 portfolio_items:
   - item: "Swirl "
   - item: Evening
@@ -68,4 +68,5 @@ portfolio_items:
   - item: Fight for Freedom / II
   - item: "Carpet "
   - item: "The two of us "
+  - item: "Women "
 ---
