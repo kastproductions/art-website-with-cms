@@ -17,4 +17,5 @@ portfolio_items:
   - item: "The light (private collection) "
   - item: "Reflections of the city "
   - item: "Reflections "
+  - item: "Fight for Freedom / I "
 ---
