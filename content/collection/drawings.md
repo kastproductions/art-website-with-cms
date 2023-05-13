@@ -12,4 +12,5 @@ portfolio_items:
   - item: "Vilnius (private collection) "
   - item: "Autumn lily "
   - item: "Memory of Yalta "
+  - item: "Morning in the fields "
 ---
