@@ -18,4 +18,5 @@ portfolio_items:
   - item: "Reflections of the city "
   - item: "Reflections "
   - item: "Fight for Freedom / I "
+  - item: Fight for Freedom / II
 ---
