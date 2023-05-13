@@ -16,4 +16,5 @@ portfolio_items:
   - item: "A bird in a cage "
   - item: "The light (private collection) "
   - item: "Reflections of the city "
+  - item: "Reflections "
 ---
