@@ -38,8 +38,8 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
             <Container as="section" maxW="8xl" w="full" py={28}>
               <Stack spacing={[20, 20, 28]}>
                 {collections?.map(({ title, items = [] }) => {
-                  const truncatedItems = items.slice(0, 4);
-                  const viewMore = items.length > 4;
+                  const truncatedItems = items.slice(0, 2);
+                  const viewMore = items.length > 2;
                   return (
                     <Stack key={title}>
                       <Link
