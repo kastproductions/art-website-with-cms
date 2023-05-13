@@ -15,4 +15,5 @@ portfolio_items:
   - item: "Morning in the fields "
   - item: "A bird in a cage "
   - item: "The light (private collection) "
+  - item: "Reflections of the city "
 ---
