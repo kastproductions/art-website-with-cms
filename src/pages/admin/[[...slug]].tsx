@@ -144,6 +144,7 @@ const config = {
           name: 'tags',
           widget: 'relation',
           collection: 'tags',
+          file: 'tags',
           search_fields: ['name'],
           value_field: 'name',
           display_fields: ['name'],
