@@ -69,4 +69,5 @@ portfolio_items:
   - item: "Carpet "
   - item: "The two of us "
   - item: "Women "
+  - item: "Gloss "
 ---
