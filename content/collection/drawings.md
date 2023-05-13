@@ -14,4 +14,5 @@ portfolio_items:
   - item: "Memory of Yalta "
   - item: "Morning in the fields "
   - item: "A bird in a cage "
+  - item: "The light (private collection) "
 ---
