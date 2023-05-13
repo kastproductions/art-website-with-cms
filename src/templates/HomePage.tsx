@@ -16,7 +16,15 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
               <Stack spacing={[2, 2, 20]}>
                 <HStack justify="center">
                   <Heading as="h1" fontWeight="normal" fontSize={['5xl', '5xl', '8xl']} textAlign="center" maxW="7xl">
-                    {heading}
+                    {heading.split('.').map((sentence, index) => {
+                      return (
+                        <span key={sentence}>
+                          {sentence}
+                          {index === 0 ? '.' : ''}
+                          <br />
+                        </span>
+                      );
+                    })}
                   </Heading>
                 </HStack>
                 <Stack direction={['column-reverse', 'column-reverse', 'row']} justify="center" spacing={[0, 0, 12]}>
@@ -38,8 +46,8 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
             <Container as="section" maxW="8xl" w="full" py={28}>
               <Stack spacing={[20, 20, 28]}>
                 {collections?.map(({ title, items = [] }) => {
-                  const truncatedItems = items.slice(0, 2);
-                  const viewMore = items.length > 2;
+                  const truncatedItems = items.slice(0, 3);
+                  const viewMore = items.length > 3;
                   return (
                     <Stack key={title}>
                       <Link
@@ -54,11 +62,11 @@ export function HomePage({ heading, intro, image, quote, collections }: any) {
                         </Heading>
                       </Link>
                       <Stack spacing={[6, 6, 10]}>
-                        <Box sx={{ columnCount: [2, 3, 4], columnGap: [4, 4, 8] }} pt={[6, 6, 10]}>
+                        <SimpleGrid columns={3} gap={[4, 4, 8]} pt={[6, 6, 10]}>
                           {truncatedItems.map((props) => (
                             <GalleryItem key={props.name} {...props} />
                           ))}
-                        </Box>
+                        </SimpleGrid>
                         {viewMore && (
                           <Link
                             textAlign="center"
