@@ -13,5 +13,4 @@ portfolio_items:
   - item: "Autumn lily "
   - item: "Memory of Yalta "
   - item: "Morning in the fields "
-  - item: "A bird in a cage "
 ---
