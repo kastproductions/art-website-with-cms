@@ -10,4 +10,5 @@ portfolio_items:
   - item: "City ​​in the clouds "
   - item: "Irises (private collection) "
   - item: "Vilnius (private collection) "
+  - item: "Autumn lily "
 ---
