@@ -11,4 +11,5 @@ portfolio_items:
   - item: "Irises (private collection) "
   - item: "Vilnius (private collection) "
   - item: "Autumn lily "
+  - item: "Memory of Yalta "
 ---
