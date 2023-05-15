@@ -19,5 +19,4 @@ portfolio_items:
   - item: "Reflections "
   - item: "Fight for Freedom / I "
   - item: Fight for Freedom / II
-  - item: "Eternity "
 ---
