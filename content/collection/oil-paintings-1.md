@@ -24,4 +24,5 @@ portfolio_items:
   - item: Landscape near Triora
   - item: "Still life "
   - item: Greenery (private collection)
+  - item: Night
 ---
