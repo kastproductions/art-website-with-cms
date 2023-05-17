@@ -23,4 +23,5 @@ portfolio_items:
   - item: From the Hill of the Three Crosses
   - item: Landscape near Triora
   - item: "Still life "
+  - item: Greenery (private collection)
 ---
