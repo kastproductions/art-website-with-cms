@@ -11,4 +11,5 @@ portfolio_items:
   - item: Cherries / I (private collection)
   - item: Cherries / II (private collection)
   - item: "Sunset / I (private collection, England) "
+  - item: "The Sea (private collection, England) "
 ---
