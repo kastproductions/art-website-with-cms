@@ -22,4 +22,5 @@ portfolio_items:
   - item: "Water lillies / III "
   - item: From the Hill of the Three Crosses
   - item: Landscape near Triora
+  - item: "Still life "
 ---
