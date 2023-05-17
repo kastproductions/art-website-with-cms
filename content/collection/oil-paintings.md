@@ -16,4 +16,5 @@ portfolio_items:
   - item: The Light
   - item: "Lake (private collection, England) "
   - item: Conversation
+  - item: Water lillies / I
 ---
