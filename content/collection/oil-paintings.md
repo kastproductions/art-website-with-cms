@@ -17,4 +17,5 @@ portfolio_items:
   - item: "Lake (private collection, England) "
   - item: Conversation
   - item: Water lillies / I
+  - item: Water lillies / I (fragment)
 ---
