@@ -14,4 +14,5 @@ portfolio_items:
   - item: "The Sea (private collection, England) "
   - item: Pathway (private collection, England)
   - item: The Light
+  - item: "Lake (private collection, England) "
 ---
