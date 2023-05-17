@@ -19,4 +19,5 @@ portfolio_items:
   - item: Water lillies / I
   - item: Water lillies / I (fragment)
   - item: "Water lillies / II (private collection) "
+  - item: "Water lillies / III "
 ---
