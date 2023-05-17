@@ -10,4 +10,5 @@ portfolio_items:
   - item: "Cherries / I (fragment; private collection) "
   - item: Cherries / I (private collection)
   - item: Cherries / II (private collection)
+  - item: "Sunset / I (private collection, England) "
 ---
