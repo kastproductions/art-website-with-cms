@@ -9,4 +9,5 @@ portfolio_items:
   - item: Flowering in Space / V (private collection)
   - item: "Cherries / I (fragment; private collection) "
   - item: Cherries / I (private collection)
+  - item: Cherries / II (private collection)
 ---
