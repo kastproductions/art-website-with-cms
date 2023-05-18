@@ -26,4 +26,5 @@ portfolio_items:
   - item: Greenery (private collection)
   - item: Night
   - item: Once in Paris...
+  - item: Blooming / I (private collection)
 ---
