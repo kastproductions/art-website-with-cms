@@ -28,4 +28,5 @@ portfolio_items:
   - item: Once in Paris...
   - item: Blooming / I (private collection)
   - item: Blooming / II (private collection)
+  - item: Blooming / III (private collection)
 ---
