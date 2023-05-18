@@ -25,5 +25,4 @@ portfolio_items:
   - item: "Still life "
   - item: Greenery (private collection)
   - item: Night
-  - item: "New shoes (inspired by a 1939 French advertising photo) "
 ---
