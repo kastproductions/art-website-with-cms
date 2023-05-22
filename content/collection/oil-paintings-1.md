@@ -33,4 +33,5 @@ portfolio_items:
   - item: "Blooming / V (private collection) "
   - item: "Amaryllis (private collection) "
   - item: "Sunset / II "
+  - item: "New shoes "
 ---
