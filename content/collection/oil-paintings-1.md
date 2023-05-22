@@ -32,4 +32,5 @@ portfolio_items:
   - item: Blooming / IV (private collection)
   - item: "Blooming / V (private collection) "
   - item: "Amaryllis (private collection) "
+  - item: "Sunset / II "
 ---
