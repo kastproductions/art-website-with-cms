@@ -24,7 +24,6 @@ portfolio_items:
   - item: Landscape near Triora
   - item: "Still life "
   - item: Greenery (private collection)
-  - item: Night
   - item: Once in Paris...
   - item: Blooming / I (private collection)
   - item: Blooming / II (private collection)
