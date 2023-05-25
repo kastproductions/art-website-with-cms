@@ -8,4 +8,5 @@ portfolio_items:
   - item: In dreams / II
   - item: In dreams / III (private collection)
   - item: In dreams / IV
+  - item: "Carpet "
 ---
