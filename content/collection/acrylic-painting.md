@@ -6,4 +6,5 @@ portfolio_items:
   - item: "Gloss "
   - item: In dreams / I
   - item: In dreams / II
+  - item: In dreams / III (private collection)
 ---
