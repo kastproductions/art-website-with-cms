@@ -12,4 +12,5 @@ portfolio_items:
   - item: Memories / I
   - item: Ophelia (fragment)
   - item: City on Fire
+  - item: City on Fire (fragment)
 ---
