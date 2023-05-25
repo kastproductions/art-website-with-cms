@@ -11,4 +11,5 @@ portfolio_items:
   - item: "Carpet "
   - item: Memories / I
   - item: Ophelia (fragment)
+  - item: City on Fire
 ---
