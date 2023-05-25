@@ -10,4 +10,5 @@ portfolio_items:
   - item: In dreams / IV
   - item: "Carpet "
   - item: Memories / I
+  - item: Ophelia (fragment)
 ---
