@@ -18,4 +18,5 @@ portfolio_items:
   - item: Memories / I
   - item: Memories / II
   - item: In dreams / IV (fragment)
+  - item: Spells
 ---
