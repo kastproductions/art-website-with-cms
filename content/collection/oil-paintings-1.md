@@ -33,4 +33,5 @@ portfolio_items:
   - item: "Amaryllis (private collection) "
   - item: "Sunset / II "
   - item: Autumn in Vilnius (private collection)
+  - item: "Sun flashes "
 ---
