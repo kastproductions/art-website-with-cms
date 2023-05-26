@@ -17,4 +17,5 @@ portfolio_items:
   - item: Ophelia
   - item: Memories / I
   - item: Memories / II
+  - item: In dreams / IV (fragment)
 ---
