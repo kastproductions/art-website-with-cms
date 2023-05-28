@@ -19,4 +19,5 @@ portfolio_items:
   - item: Memories / II
   - item: In dreams / IV (fragment)
   - item: Spells
+  - item: "Nostalgia (private collection) "
 ---
