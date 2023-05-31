@@ -35,4 +35,5 @@ portfolio_items:
   - item: Autumn in Vilnius (private collection)
   - item: "Sun flashes "
   - item: Poppies / I
+  - item: Portrait of Olivija (private collection)
 ---
