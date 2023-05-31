@@ -36,4 +36,5 @@ portfolio_items:
   - item: "Sun flashes "
   - item: Poppies / I
   - item: Portrait of Olivija (private collection)
+  - item: "Swirl "
 ---
