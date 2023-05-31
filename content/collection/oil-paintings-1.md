@@ -38,4 +38,5 @@ portfolio_items:
   - item: Portrait of Olivija (private collection)
   - item: "Swirl "
   - item: "New shoes (inspired by a 1939 French advertising photo) "
+  - item: View through the window
 ---
