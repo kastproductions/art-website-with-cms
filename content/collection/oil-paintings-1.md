@@ -44,4 +44,5 @@ portfolio_items:
   - item: "Winter motif / I "
   - item: "Figures (inspired by photography of Brassaï) "
   - item: "In the mountains / I  "
+  - item: "Figures (inspired by photography of Brassaï) "
 ---
