@@ -45,4 +45,5 @@ portfolio_items:
   - item: "Figures (inspired by photography of Brassaï) "
   - item: "In the mountains / I  "
   - item: "Figures (inspired by photography of Brassaï) "
+  - item: "Burning crosses "
 ---
