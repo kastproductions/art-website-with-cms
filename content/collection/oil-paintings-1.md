@@ -39,4 +39,5 @@ portfolio_items:
   - item: "Swirl "
   - item: "New shoes (inspired by a 1939 French advertising photo) "
   - item: View through the window
+  - item: Zverynas Bridge
 ---
