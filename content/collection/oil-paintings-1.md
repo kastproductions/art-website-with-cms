@@ -41,4 +41,5 @@ portfolio_items:
   - item: View through the window
   - item: Zverynas Bridge
   - item: Evening
+  - item: "Winter motif / I "
 ---
