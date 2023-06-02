@@ -46,4 +46,5 @@ portfolio_items:
   - item: "In the mountains / I  "
   - item: "Figures (inspired by photography of Brassaï) "
   - item: "Burning crosses "
+  - item: Winter motif / II
 ---
