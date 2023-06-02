@@ -47,4 +47,5 @@ portfolio_items:
   - item: "Figures (inspired by photography of Brassaï) "
   - item: "Burning crosses "
   - item: Winter motif / II
+  - item: Winter motif / Birds
 ---
