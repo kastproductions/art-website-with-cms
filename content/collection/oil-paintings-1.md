@@ -48,4 +48,5 @@ portfolio_items:
   - item: "Burning crosses "
   - item: Winter motif / II
   - item: Winter motif / Birds
+  - item: Poppies / II (private collection)
 ---
