@@ -49,4 +49,5 @@ portfolio_items:
   - item: Winter motif / II
   - item: Winter motif / Birds
   - item: Poppies / II (private collection)
+  - item: Blooming in the dark (private collection)
 ---
