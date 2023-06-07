@@ -51,4 +51,5 @@ portfolio_items:
   - item: Poppies / II (private collection)
   - item: Blooming in the dark (private collection)
   - item: Winter motif / III (private collection)
+  - item: "Landscape / I (private collection) "
 ---
