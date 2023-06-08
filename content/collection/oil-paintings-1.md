@@ -52,4 +52,5 @@ portfolio_items:
   - item: Blooming in the dark (private collection)
   - item: Winter motif / III (private collection)
   - item: "Landscape / I (private collection) "
+  - item: Ruffled feathers
 ---
