@@ -53,4 +53,5 @@ portfolio_items:
   - item: Winter motif / III (private collection)
   - item: "Landscape / I (private collection) "
   - item: Ruffled feathers
+  - item: "Landscape / II (private collection) "
 ---
