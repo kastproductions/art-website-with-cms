@@ -33,4 +33,5 @@ portfolio_items:
   - item: "Created from Dust "
   - item: "Obsessive Thoughts "
   - item: In Sun Light
+  - item: "Fragments of the Day "
 ---
