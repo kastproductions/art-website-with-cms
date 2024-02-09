@@ -29,4 +29,5 @@ portfolio_items:
   - item: Evening Beauty
   - item: In the Moonlight
   - item: "Red Rain "
+  - item: In a Distant City
 ---
