@@ -34,4 +34,5 @@ portfolio_items:
   - item: "Obsessive Thoughts "
   - item: In Sun Light
   - item: "Fragments of the Day "
+  - item: Frozen
 ---
