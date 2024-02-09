@@ -26,4 +26,5 @@ portfolio_items:
   - item: "Somewhere Far  "
   - item: "Escape Room "
   - item: Clouds
+  - item: Evening Beauty
 ---
