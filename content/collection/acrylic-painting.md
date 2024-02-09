@@ -32,4 +32,5 @@ portfolio_items:
   - item: In a Distant City
   - item: "Created from Dust "
   - item: "Obsessive Thoughts "
+  - item: In Sun Light
 ---
