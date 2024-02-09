@@ -31,4 +31,5 @@ portfolio_items:
   - item: "Red Rain "
   - item: In a Distant City
   - item: "Created from Dust "
+  - item: "Obsessive Thoughts "
 ---
