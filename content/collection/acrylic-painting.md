@@ -25,4 +25,5 @@ portfolio_items:
   - item: "Butterflies "
   - item: "Somewhere Far  "
   - item: "Escape Room "
+  - item: Clouds
 ---
