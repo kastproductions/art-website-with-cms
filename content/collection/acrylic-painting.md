@@ -20,4 +20,6 @@ portfolio_items:
   - item: In dreams / IV (fragment)
   - item: Spells
   - item: "Nostalgia (private collection) "
+  - item: Night in the Park
+  - item: "According to David Lynch "
 ---
