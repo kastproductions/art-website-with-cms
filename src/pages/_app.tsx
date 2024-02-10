@@ -1,29 +1,44 @@
-import type { AppProps } from 'next/app';
-import { ChakraProvider, extendTheme } from '@chakra-ui/react';
-import { withProse } from '@nikolovlazar/chakra-ui-prose';
-import { useRouter } from 'next/router';
-import React from 'react';
-import Head from 'next/head';
-import '@fontsource/cardo/400.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/300.css';
+import type { AppProps } from "next/app";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+import { withProse } from "@nikolovlazar/chakra-ui-prose";
+import { useRouter } from "next/router";
+import React from "react";
+import Head from "next/head";
+// import "@fontsource/cardo/400.css";
+// import "@fontsource/roboto/400.css";
+// import "@fontsource/roboto/300.css";
+
+import { Cardo } from "next/font/google";
+import { Roboto } from "next/font/google";
+
+const cardo = Cardo({
+  weight: ["400", "700"],
+  variable: "--font-cardo",
+  subsets: ["latin"],
+});
+
+const roboto = Roboto({
+  weight: ["400", "300"],
+  subsets: ["latin"],
+  variable: "--font-roboto",
+});
 
 const canonicalUrl = `https://jurgauzdilaite.netlify.app/`;
-const ogType = 'website';
-const site_name = 'Luminous Visions';
+const ogType = "website";
+const site_name = "Luminous Visions";
 const seo_title = `Luminous Visions: The Captivating Art Of Jurga Uzdilaite`;
 const seo_description = `Welcome to Luminous Visions, the official online gallery of Jurga Uzdilaite. Dive into a world of amazing creativity, where each piece shares a unique story filled with emotion and depth. As you explore our impressive collection, get ready for a fascinating journey through colour, texture, and form.`;
 
 export const theme = extendTheme(
   {
     fonts: {
-      heading: `'Cardo', serif`,
-      body: `'Roboto', sans-serif`,
+      heading: "--font-cardo",
+      body: "--font-roboto",
     },
   },
   withProse({
     baseStyle: {
-      p: { fontSize: ['md', 'xl'], lineHeight: 'tall', fontWeight: 'normal' },
+      p: { fontSize: ["md", "xl"], lineHeight: "tall", fontWeight: "normal" },
     },
   })
 );
@@ -34,7 +49,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   const router = useRouter();
 
-  const LayoutToUse = router.asPath.startsWith('/admin') ? React.Fragment : Wrapper;
+  const LayoutToUse = router.asPath.startsWith("/admin") ? React.Fragment : Wrapper;
 
   return (
     <>
@@ -59,5 +74,17 @@ export default function App({ Component, pageProps }: AppProps) {
 }
 
 function Wrapper({ children }) {
-  return <ChakraProvider theme={theme}>{children}</ChakraProvider>;
+  return (
+    <>
+      <style jsx global>
+        {`
+          :root {
+            --font-roboto: ${roboto.style.fontFamily};
+            --font-cardo: ${cardo.style.fontFamily};
+          }
+        `}
+      </style>
+      <ChakraProvider theme={theme}>{children}</ChakraProvider>;
+    </>
+  );
 }
