@@ -47,5 +47,10 @@
   },
   "devDependencies": {
     "@types/showdown": "^2.0.6"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm"
   }
 }
