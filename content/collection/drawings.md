@@ -20,4 +20,5 @@ portfolio_items:
   - item: "Fight for Freedom / I "
   - item: Fight for Freedom / II
   - item: "Reflections of Čiurlionis I (Property of Druskininkai Town Museum) "
+  - item: "Reflections of Čiurlionis II (Property of Druskininkai Town Museum) "
 ---
