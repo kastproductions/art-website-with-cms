@@ -25,4 +25,5 @@ portfolio_items:
   - item: "In the Forest near Baltija (Property of Druskininkai Town Museum) "
   - item: "Trees (Property of Druskininkai Town Museum) "
   - item: "Trees II (Property of Druskininkai Town Museum) "
+  - item: "Trees I (Property of Druskininkai Town Museum) "
 ---
