@@ -19,4 +19,5 @@ portfolio_items:
   - item: "Reflections "
   - item: "Fight for Freedom / I "
   - item: Fight for Freedom / II
+  - item: "Reflections of Čiurlionis I (Property of Druskininkai Town Museum) "
 ---
