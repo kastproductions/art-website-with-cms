@@ -35,4 +35,5 @@ portfolio_items:
   - item: In Sun Light
   - item: "Fragments of the Day "
   - item: Frozen
+  - item: "Nostalgia (private collection, Belgium) "
 ---
