@@ -1,5 +1,5 @@
 ---
-title: "Trees (Property of Druskininkai Town Museum) "
+title: "Trees I (Property of Druskininkai Town Museum) "
 description: 30x35, design on paper, 2023 (Druskininkai Stained Glass Symposium
   "Reflections of Čiurlionis")
 images:
