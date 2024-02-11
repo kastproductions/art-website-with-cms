@@ -1,8 +1,8 @@
-import { Layout } from '@/components/layout';
-import matter from 'gray-matter';
-import Head from 'next/head';
-import { GalleryPage } from '@/templates/GalleryPage';
-import fs from 'fs';
+import { Layout } from "@/components/layout";
+import matter from "gray-matter";
+import Head from "next/head";
+import { GalleryPage } from "@/templates/GalleryPage";
+import fs from "fs";
 
 export default function Page({ data }: any) {
   const { seo_title, seo_description, social_media_links, ...rest } = data;
@@ -25,19 +25,18 @@ export default function Page({ data }: any) {
 }
 
 export async function getStaticProps() {
-  const { data } = matter.read('./content/pages/home.md');
+  const { data } = matter.read("./content/pages/home.md");
   const {
     data: { social_media_links },
-  } = matter.read('./content/site_settings/social_media_links.md');
-  const filesInPortfolio = fs.readdirSync('./content/portfolio');
+  } = matter.read("./content/site_settings/social_media_links.md");
+  const filesInPortfolio = fs.readdirSync("./content/portfolio");
   // Get the front matter and slug (the filename without .md) of all files
   const art = filesInPortfolio.map((filename) => {
-    const file = fs.readFileSync(`./content/portfolio/${filename}`, 'utf8');
+    const file = fs.readFileSync(`./content/portfolio/${filename}`, "utf8");
     const { data } = matter(file);
     return data;
   });
   return {
     props: { data: { ...data, art, social_media_links } },
-    revalidate: 1,
   };
 }

@@ -1,9 +1,9 @@
-import matter from 'gray-matter';
+import matter from "gray-matter";
 // import { HomePage } from '../templates/HomePage';
-import fs from 'fs';
-import Head from 'next/head';
-import { Layout } from '@/components/layout';
-import { Heading, Container, Stack, HStack, Text } from '@chakra-ui/react';
+import fs from "fs";
+import Head from "next/head";
+import { Layout } from "@/components/layout";
+import { Heading, Container, Stack, HStack, Text } from "@chakra-ui/react";
 
 export default function Page({ data }: any) {
   const { seo_title, seo_description, social_media_links, ...rest } = data;
@@ -22,11 +22,11 @@ export default function Page({ data }: any) {
         <Container maxW="8xl" w="full" py={[10, 10, 20]}>
           <Stack spacing={[10, 10, 20]}>
             <HStack>
-              <Heading as="h1" fontWeight="normal" fontSize={['4xl', '4xl', '7xl']} textAlign="center" maxW="7xl">
+              <Heading as="h1" fontWeight="normal" fontSize={["4xl", "4xl", "7xl"]} textAlign="center" maxW="7xl">
                 Shop
               </Heading>
             </HStack>
-            <Text fontSize={['md', 'xl']} color="gray.500">
+            <Text fontSize={["md", "xl"]} color="gray.500">
               Sold out. Please contact me via email if you would like to place an order.
             </Text>
             {/* <Box w={['full', 'full', '60%']}>
@@ -45,7 +45,7 @@ export async function getStaticProps() {
   // const { data } = matter.read('./content/pages/home.md');
   const {
     data: { social_media_links },
-  } = matter.read('./content/site_settings/social_media_links.md');
+  } = matter.read("./content/site_settings/social_media_links.md");
   // const filesInPortfolio = fs.readdirSync('./content/portfolio');
   // // Get the front matter and slug (the filename without .md) of all files
   // const portfolio = filesInPortfolio.map((filename) => {
@@ -67,6 +67,5 @@ export async function getStaticProps() {
 
   return {
     props: { data: { social_media_links } },
-    revalidate: 1,
   };
 }

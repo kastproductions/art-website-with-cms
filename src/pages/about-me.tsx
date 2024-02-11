@@ -1,7 +1,7 @@
-import { Layout } from '@/components/layout';
-import matter from 'gray-matter';
-import Head from 'next/head';
-import { AboutPage } from '../templates/AboutPage';
+import { Layout } from "@/components/layout";
+import matter from "gray-matter";
+import Head from "next/head";
+import { AboutPage } from "../templates/AboutPage";
 
 export default function Page({ data }: any) {
   const { seo_title, seo_description, social_media_links, ...rest } = data;
@@ -24,12 +24,11 @@ export default function Page({ data }: any) {
 }
 
 export async function getStaticProps() {
-  const { content } = matter.read('./content/pages/about.md');
+  const { content } = matter.read("./content/pages/about.md");
   const {
     data: { social_media_links },
-  } = matter.read('./content/site_settings/social_media_links.md');
+  } = matter.read("./content/site_settings/social_media_links.md");
   return {
     props: { data: { body: content, social_media_links } },
-    revalidate: 1,
   };
 }
