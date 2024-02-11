@@ -23,4 +23,5 @@ portfolio_items:
   - item: "Reflections of Čiurlionis II (Property of Druskininkai Town Museum) "
   - item: "Forests (Property of Druskininkai Town Museum) "
   - item: "In the Forest near Baltija (Property of Druskininkai Town Museum) "
+  - item: "Trees (Property of Druskininkai Town Museum) "
 ---
