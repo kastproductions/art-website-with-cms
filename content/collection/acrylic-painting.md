@@ -39,4 +39,5 @@ portfolio_items:
   - item: While Dreaming / I
   - item: While Dreaming / II
   - item: While Dreaming / IV
+  - item: While Dreaming / IV (fragment)
 ---
