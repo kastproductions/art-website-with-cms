@@ -37,4 +37,5 @@ portfolio_items:
   - item: Frozen
   - item: "Nostalgia (private collection, Belgium) "
   - item: While Dreaming / I
+  - item: While Dreaming / II
 ---
