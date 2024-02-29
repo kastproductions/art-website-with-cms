@@ -41,4 +41,5 @@ portfolio_items:
   - item: While Dreaming / IV
   - item: While Dreaming / IV (fragment)
   - item: While Dreaming / III (private collection)
+  - item: "The Heat "
 ---
