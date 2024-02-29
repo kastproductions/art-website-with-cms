@@ -36,4 +36,5 @@ portfolio_items:
   - item: "Fragments of the Day "
   - item: Frozen
   - item: "Nostalgia (private collection, Belgium) "
+  - item: While Dreaming / I
 ---
