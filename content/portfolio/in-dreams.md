@@ -1,5 +1,5 @@
 ---
-title: In dreams / I
+title: While Dreaming / I
 description: "70x100, cardboard, acrylic, collage, 2007-2021\r\ 
 
   \r\n"
