@@ -42,4 +42,5 @@ portfolio_items:
   - item: While Dreaming / IV (fragment)
   - item: While Dreaming / III (private collection)
   - item: "The Heat "
+  - item: City on Fire
 ---
